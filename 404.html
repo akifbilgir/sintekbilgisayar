@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sayfa Bulunamadı | Sintek Bilgisayar</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <img src="assets/img/logo.svg" alt="Sintek Bilgisayar" width="52" height="32" onerror="this.style.display='none'">
+      <span class="logo-text">Sintek Bilgisayar</span>
+    </a>
+    <nav class="nav" id="main-nav" aria-label="Ana navigasyon">
+      <a href="index.html" class="nav-link">Anasayfa</a>
+      <a href="hizmetler.html" class="nav-link">Hizmetler</a>
+      <a href="e-donusum.html" class="nav-link">e-Dönüşüm</a>
+      <a href="is-ortaklari.html" class="nav-link">İş Ortakları</a>
+    </nav>
+    <a href="iletisim.html" class="btn btn-primary header-cta">İletişime Geç</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menüyü aç/kapat" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="error-page">
+  <div class="error-code text-gradient">404</div>
+  <h2>Sayfa Bulunamadı</h2>
+  <p>Aradığınız sayfa taşınmış ya da kaldırılmış olabilir.</p>
+  <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center;">
+    <a href="index.html" class="btn btn-primary btn-lg">Anasayfaya Dön</a>
+    <a href="iletisim.html" class="btn btn-outline btn-lg">İletişime Geç</a>
+  </div>
+</div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ===== Variables ===== */
+:root {
+  --bg:              #0b1620;
+  --bg-elev:         #12222e;
+  --bg-elev-2:       #1a2f3e;
+  --text:            #e6f1f5;
+  --text-muted:      #9fb3bd;
+  --turquoise:       #30e3ca;
+  --turquoise-dim:   #11c5ad;
+  --turquoise-glow:  #30e3ca30;
+  --turquoise-border:#30e3ca22;
+  --danger:          #ff6b6b;
+  --radius-sm:       8px;
+  --radius:          14px;
+  --radius-lg:       22px;
+  --shadow-glow:     0 0 0 1px #30e3ca40, 0 10px 40px -10px #30e3ca30;
+  --transition:      0.25s ease;
+  --container-max:   1200px;
+  --container-px:    clamp(1rem, 4vw, 2rem);
+}
+
+/* ===== Reset ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+img, svg { max-width: 100%; height: auto; display: block; }
+
+a { color: var(--turquoise); text-decoration: none; transition: color var(--transition); }
+a:hover { color: var(--turquoise-dim); }
+
+ul { list-style: none; }
+
+h1, h2, h3, h4, h5, h6 { line-height: 1.2; font-weight: 700; letter-spacing: -0.02em; }
+
+h1 { font-size: clamp(2rem, 5vw, 3.25rem); }
+h2 { font-size: clamp(1.5rem, 3.5vw, 2.25rem); }
+h3 { font-size: clamp(1.05rem, 2.5vw, 1.4rem); }
+h4 { font-size: 1rem; }
+
+p { color: var(--text-muted); }
+
+/* ===== Utilities ===== */
+.text-gradient {
+  background: linear-gradient(135deg, #30e3ca 0%, #00b4d8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-muted  { color: var(--text-muted); }
+.text-white  { color: var(--text); }
+.text-center { text-align: center; }
+.mt-1  { margin-top: 0.5rem; }
+.mt-2  { margin-top: 1rem; }
+.mt-3  { margin-top: 1.5rem; }
+
+/* ===== Scroll reveal ===== */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.visible { opacity: 1; transform: none; }
+.reveal:nth-child(2) { transition-delay: 0.1s; }
+.reveal:nth-child(3) { transition-delay: 0.2s; }
+.reveal:nth-child(4) { transition-delay: 0.3s; }
+.reveal:nth-child(5) { transition-delay: 0.4s; }

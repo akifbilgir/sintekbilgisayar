@@ -58,6 +58,15 @@
 /* ===== About page visual ===== */
 .about-visual-wrap { display: flex; align-items: center; justify-content: center; }
 .about-visual { width: 100%; max-width: 480px; height: auto; border-radius: var(--radius-lg); }
+.about-img-wrap { width: 100%; }
+.about-img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--turquoise-border);
+  box-shadow: var(--card-shadow);
+  display: block;
+}
 
 /* ===== About feature blocks ===== */
 .about-feature {

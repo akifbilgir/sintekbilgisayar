@@ -1,3 +1,52 @@
+/* ===== About two-column layout ===== */
+.about-two-col {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 4rem;
+  align-items: start;
+}
+.about-text-col {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.about-block {
+  border-bottom: 1px solid var(--turquoise-border);
+  padding-bottom: 2.5rem;
+}
+.about-block:last-child { border-bottom: none; padding-bottom: 0; }
+.about-block-title {
+  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  line-height: 1.25;
+  margin: 0.4rem 0 0.9rem;
+  letter-spacing: -0.02em;
+}
+.about-block p {
+  font-size: 0.975rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+}
+.about-img-sticky {
+  position: sticky;
+  top: 5.5rem;
+}
+.about-img-sticky .about-img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--turquoise-border);
+  box-shadow: var(--card-shadow);
+}
+@media (max-width: 860px) {
+  .about-two-col {
+    grid-template-columns: 1fr;
+  }
+  .about-img-sticky {
+    position: static;
+    order: -1;
+  }
+}
+
 /* ===== About intro section ===== */
 .about-intro-section {
   border-bottom: 1px solid var(--turquoise-border);

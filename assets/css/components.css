@@ -2,6 +2,49 @@
 .about-visual-wrap { display: flex; align-items: center; justify-content: center; }
 .about-visual { width: 100%; max-width: 480px; height: auto; border-radius: var(--radius-lg); }
 
+/* ===== About feature blocks ===== */
+.about-feature {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1.1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-elev);
+  border: 1px solid var(--turquoise-border);
+  border-radius: var(--radius);
+  transition: box-shadow var(--transition), border-color var(--transition);
+}
+.about-feature:hover {
+  border-color: var(--turquoise);
+  box-shadow: var(--shadow-glow);
+}
+.about-feature-icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  background: var(--turquoise-glow);
+  border: 1px solid var(--turquoise-border);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--turquoise);
+}
+.about-feature-icon svg { width: 20px; height: 20px; }
+.about-feature-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.35rem;
+  letter-spacing: -0.01em;
+}
+.about-feature p {
+  font-size: 0.875rem;
+  line-height: 1.65;
+  margin: 0;
+}
+.about-feature p strong { color: var(--turquoise); font-weight: 600; }
+
 /* ===== Buttons ===== */
 .btn {
   display: inline-flex;

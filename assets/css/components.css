@@ -846,3 +846,40 @@
   .slider, .slider-track, .slide, .slide-inner { min-height: 460px; }
   .slide-content { padding: 3rem 0; }
 }
+
+/* ===== Theme Switcher ===== */
+.theme-switcher {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background: var(--bg-elev);
+  border: 1px solid var(--turquoise-border);
+  border-radius: 99px;
+  padding: 3px;
+  flex-shrink: 0;
+  margin-left: 0.5rem;
+}
+.theme-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background var(--transition), color var(--transition);
+  padding: 0;
+}
+.theme-btn:hover { color: var(--turquoise); }
+.theme-btn.active {
+  background: var(--turquoise);
+  color: var(--bg);
+}
+.theme-btn svg { width: 13px; height: 13px; }
+
+@media (max-width: 820px) {
+  .theme-switcher { margin-left: 0; }
+}

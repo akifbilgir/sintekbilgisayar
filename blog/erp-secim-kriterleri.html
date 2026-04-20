@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="../assets/css/base.css">
   <link rel="stylesheet" href="../assets/css/layout.css">
   <link rel="stylesheet" href="../assets/css/components.css">
+<script>!function(){var t=localStorage.getItem("sintek-theme")||"light",a="system"===t?window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light":t;document.documentElement.setAttribute("data-theme",a)}();</script>
 </head>
 <body>
 
@@ -29,7 +30,17 @@
       <a href="../referanslar.html" class="nav-link">Referanslar</a>
       <a href="index.html" class="nav-link">Blog</a>
     </nav>
-    <a href="../iletisim.html" class="btn btn-primary header-cta">İletişime Geç</a>
+        <div class="theme-switcher" id="theme-switcher">
+      <button class="theme-btn" data-t="light" title="Açık">
+        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path stroke-linecap="round" d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      </button>
+      <button class="theme-btn" data-t="dark" title="Koyu">
+        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="theme-btn" data-t="system" title="Sistem">
+        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" stroke-linejoin="round"/><path stroke-linecap="round" d="M8 21h8M12 17v4"/></svg>
+      </button>
+    </div>    <a href="../iletisim.html" class="btn btn-primary header-cta">İletişime Geç</a>
     <button class="nav-toggle" id="nav-toggle" aria-label="Menüyü aç/kapat" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>

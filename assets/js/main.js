@@ -133,3 +133,39 @@ if (revealEls.length && 'IntersectionObserver' in window) {
   setProgress();
   startTimer();
 })();
+
+// ===== Theme Switcher =====
+(function () {
+  const KEY = 'sintek-theme';
+  const root = document.documentElement;
+
+  function systemTheme() {
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+
+  function apply(pref) {
+    const actual = pref === 'system' ? systemTheme() : pref;
+    root.setAttribute('data-theme', actual);
+    document.querySelectorAll('.theme-btn').forEach(b => {
+      b.classList.toggle('active', b.dataset.t === pref);
+    });
+  }
+
+  function set(pref) {
+    localStorage.setItem(KEY, pref);
+    apply(pref);
+  }
+
+  // Apply saved or default preference immediately
+  const saved = localStorage.getItem(KEY) || 'light';
+  apply(saved);
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('.theme-btn[data-t]');
+    if (btn) set(btn.dataset.t);
+  });
+
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+    if (localStorage.getItem(KEY) === 'system') apply('system');
+  });
+})();

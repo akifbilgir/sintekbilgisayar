@@ -14,7 +14,7 @@
   transition: background var(--transition), box-shadow var(--transition);
 }
 .site-header.scrolled {
-  background: rgba(11, 22, 32, 0.92);
+  background: var(--header-scrolled);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   box-shadow: 0 1px 0 var(--turquoise-border);

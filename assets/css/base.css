@@ -1,7 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-/* ===== Variables ===== */
+/* ===== Variables — Light theme (default) ===== */
 :root {
+  --bg:              #f0fdfb;
+  --bg-elev:         #ffffff;
+  --bg-elev-2:       #e6faf7;
+  --text:            #0c1f2c;
+  --text-muted:      #4a6b7a;
+  --turquoise:       #0d9488;
+  --turquoise-dim:   #0f766e;
+  --turquoise-glow:  rgba(13,148,136,0.1);
+  --turquoise-border:rgba(13,148,136,0.18);
+  --header-scrolled: rgba(240,253,251,0.96);
+  --danger:          #dc2626;
+  --radius-sm:       8px;
+  --radius:          14px;
+  --radius-lg:       22px;
+  --shadow-glow:     0 0 0 1px rgba(13,148,136,0.15), 0 8px 32px -8px rgba(13,148,136,0.18);
+  --card-shadow:     0 1px 4px rgba(13,148,136,0.08), 0 4px 20px rgba(13,148,136,0.06);
+  --transition:      0.25s ease;
+  --container-max:   1200px;
+  --container-px:    clamp(1rem, 4vw, 2rem);
+}
+
+/* ===== Dark theme ===== */
+[data-theme="dark"] {
   --bg:              #0b1620;
   --bg-elev:         #12222e;
   --bg-elev-2:       #1a2f3e;
@@ -9,16 +32,12 @@
   --text-muted:      #9fb3bd;
   --turquoise:       #30e3ca;
   --turquoise-dim:   #11c5ad;
-  --turquoise-glow:  #30e3ca30;
-  --turquoise-border:#30e3ca22;
+  --turquoise-glow:  rgba(48,227,202,0.1);
+  --turquoise-border:rgba(48,227,202,0.15);
+  --header-scrolled: rgba(11,22,32,0.93);
   --danger:          #ff6b6b;
-  --radius-sm:       8px;
-  --radius:          14px;
-  --radius-lg:       22px;
-  --shadow-glow:     0 0 0 1px #30e3ca40, 0 10px 40px -10px #30e3ca30;
-  --transition:      0.25s ease;
-  --container-max:   1200px;
-  --container-px:    clamp(1rem, 4vw, 2rem);
+  --shadow-glow:     0 0 0 1px rgba(48,227,202,0.12), 0 10px 40px -10px rgba(48,227,202,0.15);
+  --card-shadow:     0 1px 4px rgba(0,0,0,0.3), 0 4px 20px rgba(0,0,0,0.2);
 }
 
 /* ===== Reset ===== */
@@ -29,10 +48,13 @@ html { scroll-behavior: smooth; }
 body {
   font-family: 'Inter', system-ui, sans-serif;
   background-color: var(--bg);
+  background-image: radial-gradient(var(--turquoise-border) 1px, transparent 1px);
+  background-size: 26px 26px;
   color: var(--text);
   line-height: 1.65;
   min-height: 100vh;
   overflow-x: hidden;
+  transition: background-color 0.35s ease, color 0.35s ease;
 }
 
 img, svg { max-width: 100%; height: auto; display: block; }
@@ -53,7 +75,7 @@ p { color: var(--text-muted); }
 
 /* ===== Utilities ===== */
 .text-gradient {
-  background: linear-gradient(135deg, #30e3ca 0%, #00b4d8 100%);
+  background: linear-gradient(135deg, var(--turquoise) 0%, var(--turquoise-dim) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

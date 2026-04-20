@@ -1,3 +1,7 @@
+/* ===== About page visual ===== */
+.about-visual-wrap { display: flex; align-items: center; justify-content: center; }
+.about-visual { width: 100%; max-width: 480px; height: auto; border-radius: var(--radius-lg); }
+
 /* ===== Buttons ===== */
 .btn {
   display: inline-flex;

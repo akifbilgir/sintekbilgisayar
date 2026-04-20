@@ -2,16 +2,16 @@
 
 /* ===== Variables — Light theme (default) ===== */
 :root {
-  --bg:              #f0fdfb;
-  --bg-elev:         #ffffff;
-  --bg-elev-2:       #e6faf7;
+  --bg:              #dde8ed;
+  --bg-elev:         #e8f2f7;
+  --bg-elev-2:       #d0dde4;
   --text:            #0c1f2c;
-  --text-muted:      #4a6b7a;
+  --text-muted:      #3d5c6b;
   --turquoise:       #0d9488;
   --turquoise-dim:   #0f766e;
-  --turquoise-glow:  rgba(13,148,136,0.1);
-  --turquoise-border:rgba(13,148,136,0.18);
-  --header-scrolled: rgba(240,253,251,0.96);
+  --turquoise-glow:  rgba(13,148,136,0.12);
+  --turquoise-border:rgba(13,148,136,0.22);
+  --header-scrolled: rgba(221,232,237,0.97);
   --danger:          #dc2626;
   --radius-sm:       8px;
   --radius:          14px;
@@ -48,8 +48,8 @@ html { scroll-behavior: smooth; }
 body {
   font-family: 'Inter', system-ui, sans-serif;
   background-color: var(--bg);
-  background-image: radial-gradient(var(--turquoise-border) 1px, transparent 1px);
-  background-size: 26px 26px;
+  background-image: radial-gradient(var(--turquoise-border) 1.2px, transparent 1.2px);
+  background-size: 28px 28px;
   color: var(--text);
   line-height: 1.65;
   min-height: 100vh;

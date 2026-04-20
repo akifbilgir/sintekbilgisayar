@@ -12,6 +12,11 @@
   --turquoise-glow:  rgba(13,148,136,0.12);
   --turquoise-border:rgba(13,148,136,0.22);
   --header-scrolled: rgba(221,232,237,0.97);
+  --chrome-bg:       #0c1f2c;
+  --chrome-bg-elev:  #162736;
+  --chrome-text:     #e6f1f5;
+  --chrome-muted:    #9fb3bd;
+  --chrome-scrolled: rgba(12,31,44,0.97);
   --danger:          #dc2626;
   --radius-sm:       8px;
   --radius:          14px;
@@ -35,6 +40,11 @@
   --turquoise-glow:  rgba(48,227,202,0.1);
   --turquoise-border:rgba(48,227,202,0.15);
   --header-scrolled: rgba(11,22,32,0.93);
+  --chrome-bg:       #dde8ed;
+  --chrome-bg-elev:  #e8f2f7;
+  --chrome-text:     #0c1f2c;
+  --chrome-muted:    #3d5c6b;
+  --chrome-scrolled: rgba(221,232,237,0.97);
   --danger:          #ff6b6b;
   --shadow-glow:     0 0 0 1px rgba(48,227,202,0.12), 0 10px 40px -10px rgba(48,227,202,0.15);
   --card-shadow:     0 1px 4px rgba(0,0,0,0.3), 0 4px 20px rgba(0,0,0,0.2);

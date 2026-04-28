@@ -1,0 +1,4 @@
+[    5866ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://beta.link.com.tr/wp-content/uploads/elementor/custom-icons/theme-icons/style.css?ver=1.0.0:0
+[    6006ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://link.com.tr/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[   26306ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://beta.link.com.tr/wp-content/uploads/elementor/custom-icons/theme-icons/style.css?ver=1.0.0:0
+[   26332ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://link.com.tr/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1

@@ -143,29 +143,25 @@ if (revealEls.length && 'IntersectionObserver' in window) {
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
   }
 
-  function apply(pref) {
-    const actual = pref === 'system' ? systemTheme() : pref;
-    root.setAttribute('data-theme', actual);
+  function apply(theme) {
+    root.setAttribute('data-theme', theme);
     document.querySelectorAll('.theme-btn').forEach(b => {
-      b.classList.toggle('active', b.dataset.t === pref);
+      b.classList.toggle('active', b.dataset.t === theme);
     });
   }
 
-  function set(pref) {
-    localStorage.setItem(KEY, pref);
-    apply(pref);
+  function set(theme) {
+    localStorage.setItem(KEY, theme);
+    apply(theme);
   }
 
-  // Apply saved or default preference immediately
-  const saved = localStorage.getItem(KEY) || 'light';
+  const raw = localStorage.getItem(KEY);
+  const saved = (!raw || raw === 'system') ? systemTheme() : raw;
+  if (raw === 'system') localStorage.setItem(KEY, saved);
   apply(saved);
 
   document.addEventListener('click', e => {
     const btn = e.target.closest('.theme-btn[data-t]');
     if (btn) set(btn.dataset.t);
-  });
-
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-    if (localStorage.getItem(KEY) === 'system') apply('system');
   });
 })();

@@ -1,0 +1,746 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - link "logo" [ref=e8] [cursor=pointer]:
+          - /url: /en
+          - img "logo" [ref=e10]
+        - generic [ref=e14]:
+          - img "magnifier" [ref=e15]
+          - textbox "Search term / article number" [ref=e17]
+          - button "Search" [ref=e18] [cursor=pointer]
+        - navigation [ref=e20]:
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - link "dialog Contact Us" [ref=e23] [cursor=pointer]:
+                - /url: "#"
+                - img "dialog" [ref=e25]
+                - generic [ref=e27]: Contact Us
+            - listitem [ref=e28]:
+              - link "Please Login" [ref=e29] [cursor=pointer]:
+                - /url: https://web.optibelt.com/en/login
+      - generic [ref=e31]:
+        - list [ref=e33]:
+          - listitem [ref=e34]:
+            - link "menu Products & Solutions" [ref=e37] [cursor=pointer]:
+              - /url: /en/all-products
+              - generic [ref=e38]:
+                - img "menu" [ref=e39]
+                - generic [ref=e41]: Products & Solutions
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link "Product Category":
+                          - /url: /en/all-products
+                          - generic: Product Category
+                      - link "Show all products chevron-right":
+                        - /url: /en/all-products
+                        - text: Show all products
+                        - img "chevron-right"
+                    - generic:
+                      - generic:
+                        - list:
+                          - generic:
+                            - link "V-Belts V-Belts":
+                              - /url: /en/all-products/v-belts
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img "V-Belts"
+                              - generic: V-Belts
+                            - link "Kraftbands Kraftbands":
+                              - /url: /en/all-products/kraftbands
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img "Kraftbands"
+                              - generic: Kraftbands
+                            - link "Ribbed Belts Ribbed Belts":
+                              - /url: /en/all-products/ribbed-belts
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img "Ribbed Belts"
+                              - generic: Ribbed Belts
+                            - link "Timing Belts Timing Belts":
+                              - /url: /en/all-products/timing-belts
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img "Timing Belts"
+                              - generic: Timing Belts
+                            - link "Other Belts Other Belts":
+                              - /url: /en/all-products/other-belts
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img "Other Belts"
+                              - generic: Other Belts
+                            - link "Metal Metal":
+                              - /url: /en/all-products/metal
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img "Metal"
+                              - generic: Metal
+                            - link "Repair Kits and Equipment Repair Kits and Equipment":
+                              - /url: /en/all-products/repair-kits-and-equipment
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img "Repair Kits and Equipment"
+                              - generic: Repair Kits and Equipment
+                            - link "Tension and Idler Pulleys Tension and Idler Pulleys":
+                              - /url: /en/all-products/tension-and-idler-pulleys
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img "Tension and Idler Pulleys"
+                              - generic: Tension and Idler Pulleys
+                            - link "Technical Tools Technical Tools":
+                              - /url: /en/all-products/technical-tools
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img "Technical Tools"
+                              - generic: Technical Tools
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link "Industry Solutions":
+                          - /url: /en/c/product-solutions/industry-solutions
+                          - generic: Industry Solutions
+                      - link "Overview chevron-right":
+                        - /url: /en/c/product-solutions/industry-solutions
+                        - text: Overview
+                        - img "chevron-right"
+                    - generic:
+                      - generic:
+                        - list:
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Automotive":
+                                  - /url: /en/c/product-solutions/industry-solutions/automotive
+                                  - generic: Automotive
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Printing & Paper":
+                                  - /url: /en/c/product-solutions/industry-solutions/printing-paper
+                                  - generic: Printing & Paper
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Sealing & Damping Technology":
+                                  - /url: /en/elastomer-solutions
+                                  - generic: Sealing & Damping Technology
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Lawn & Garden":
+                                  - /url: /en/c/product-solutions/industry-solutions/lawn-garden
+                                  - generic: Lawn & Garden
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Agricultural Technology":
+                                  - /url: /en/c/product-solutions/industry-solutions/agricultural-technology
+                                  - generic: Agricultural Technology
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Food & Beverage":
+                                  - /url: /en/c/product-solutions/industry-solutions/food-beverage
+                                  - generic: Food & Beverage
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Fans & Compressors":
+                                  - /url: /en/c/product-solutions/industry-solutions/fans-compressors
+                                  - generic: Fans & Compressors
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Oil & Gas":
+                                  - /url: /en/c/product-solutions/industry-solutions/oil-gas
+                                  - generic: Oil & Gas
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "X-Ray Protection":
+                                  - /url: /en/elastomer-solutions
+                                  - generic: X-Ray Protection
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Leisure & Sports":
+                                  - /url: /en/elastomer-solutions
+                                  - generic: Leisure & Sports
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Road Construction":
+                                  - /url: /en/c/product-solutions/industry-solutions/road-construction
+                                  - generic: Road Construction
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Textiles":
+                                  - /url: /en/c/product-solutions/industry-solutions/textiles
+                                  - generic: Textiles
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Logistics & Distribution":
+                                  - /url: /en/c/product-solutions/industry-solutions/logistics-distribution
+                                  - generic: Logistics & Distribution
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Packaging":
+                                  - /url: /en/c/product-solutions/industry-solutions/packaging
+                                  - generic: Packaging
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Cement Industry":
+                                  - /url: /en/c/product-solutions/industry-solutions/cement-industry
+                                  - generic: Cement Industry
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link "Business Units":
+                          - /url: /en/c/about-optibelt/about-us/business-units
+                          - generic: Business Units
+                    - generic:
+                      - generic:
+                        - list:
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Power Transmission":
+                                  - /url: /en/power-transmission
+                                  - generic: Power Transmission
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Automotive Technology":
+                                  - /url: /en/c/product-solutions/industry-solutions/automotive
+                                  - generic: Automotive Technology
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Material Handling":
+                                  - /url: /en/material-handling
+                                  - generic: Material Handling
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Elastomer Solutions":
+                                  - /url: /en/elastomer-solutions
+                                  - generic: Elastomer Solutions
+          - listitem [ref=e42]:
+            - link "Service & Support" [ref=e45] [cursor=pointer]:
+              - /url: /en/c/service-support
+              - generic [ref=e46]: Service & Support
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link "Our Support Service":
+                          - /url: /en/c/service-support
+                          - generic: Our Support Service
+                    - generic:
+                      - generic:
+                        - list:
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Seminars":
+                                  - /url: /en/c/service-support/our-support-service/seminars
+                                  - generic: Seminars
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link "Tools":
+                          - /url: /en/c/service-support
+                          - generic: Tools
+                    - generic:
+                      - generic:
+                        - list:
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "TCO Calculator":
+                                  - /url: https://tco.optibelt.com/
+                                  - generic: TCO Calculator
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Software CAP 6.0 & 6.5":
+                                  - /url: /en/c/service-support/tools/software-cap
+                                  - generic: Software CAP 6.0 & 6.5
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "CAD Service Tool":
+                                  - /url: /en/c/service-support/tools/cad-service-tool
+                                  - generic: CAD Service Tool
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Optibelt Mobile App":
+                                  - /url: /en/c/service-support/tools/mobile-app
+                                  - generic: Optibelt Mobile App
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Cleat Selector":
+                                  - /url: https://www.optibelt.com/en/microsites/cleat-selector/
+                                  - generic: Cleat Selector
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Datasheet Selector":
+                                  - /url: https://www.optibelt.com/en/microsites/data-sheet-selector
+                                  - generic: Datasheet Selector
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Product Finder":
+                                  - /url: https://www.optibelt.com/en/microsites/product-finder/
+                                  - generic: Product Finder
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Agro Power Research":
+                                  - /url: https://portal.optibelt.com/zok/en/v2/zok-agropower
+                                  - generic: Agro Power Research
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Green Garden Research":
+                                  - /url: https://portal.optibelt.com/zok/en/v2/zok-green-garden
+                                  - generic: Green Garden Research
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link "eServices":
+                          - /url: /en/c/service-support
+                          - generic: eServices
+                    - generic:
+                      - generic:
+                        - list:
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "EDI":
+                                  - /url: /en/c/service-support/e-services/edi
+                                  - generic: EDI
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Optibelt-CoNnect":
+                                  - /url: /en/c/service-support/e-services/optibelt-connect
+                                  - generic: Optibelt-CoNnect
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link "Downloads & Media":
+                          - /url: /en/c/service-support
+                          - generic: Downloads & Media
+                    - generic:
+                      - generic:
+                        - list:
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Mediacenter":
+                                  - /url: /en/c/service-support/downloads-media/mediacenter
+                                  - generic: Mediacenter
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Datasheets":
+                                  - /url: https://www.optibelt.com/en/microsites/data-sheet-selector
+                                  - generic: Datasheets
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Press Releases & News":
+                                  - /url: /en/c/about-optibelt/get-to-know-us/press-releases
+                                  - generic: Press Releases & News
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Newsletter":
+                                  - /url: /en/c/service-support/downloads-media/newsletter
+                                  - generic: Newsletter
+          - listitem [ref=e47]:
+            - link "About Optibelt" [ref=e50] [cursor=pointer]:
+              - /url: /en/c/about-optibelt
+              - generic [ref=e51]: About Optibelt
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link "About Us":
+                          - /url: /en/c/about-optibelt
+                          - generic: About Us
+                    - generic:
+                      - generic:
+                        - list:
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "About Us":
+                                  - /url: /en/c/about-optibelt/about-us/about-us/
+                                  - generic: About Us
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "History":
+                                  - /url: /en/c/about-optibelt/about-us/history/
+                                  - generic: History
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Business Units":
+                                  - /url: /en/c/about-optibelt/about-us/business-units
+                                  - generic: Business Units
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Locations":
+                                  - /url: /en/c/about-optibelt/about-us/locations
+                                  - generic: Locations
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Managementsystem Certification":
+                                  - /url: /en/c/about-optibelt/about-us/managementsystem-certification
+                                  - generic: Managementsystem Certification
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Sustainability":
+                                  - /url: /en/c/about-optibelt/about-us/sustainability
+                                  - generic: Sustainability
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Compliance":
+                                  - /url: /en/c/about-optibelt/about-us/compliance
+                                  - generic: Compliance
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link "Get to know us":
+                          - /url: /en/c/about-optibelt
+                          - generic: Get to know us
+                    - generic:
+                      - generic:
+                        - list:
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Trade Fairs":
+                                  - /url: /en/c/about-optibelt/get-to-know-us/trade-fairs
+                                  - generic: Trade Fairs
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Press Releases & News":
+                                  - /url: /en/c/about-optibelt/get-to-know-us/press-releases
+                                  - generic: Press Releases & News
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Contact":
+                                  - /url: /en/c/about-optibelt/get-to-know-us/contact
+                                  - generic: Contact
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link "For Suppliers":
+                          - /url: /en/c/about-optibelt
+                          - generic: For Suppliers
+                    - generic:
+                      - generic:
+                        - list:
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Purchasing Program":
+                                  - /url: /en/c/about-optibelt/for-suppliers/purchasing-program
+                                  - generic: Purchasing Program
+          - listitem [ref=e52]:
+            - link "Career" [ref=e55] [cursor=pointer]:
+              - /url: /en/c/career/job-offers
+              - generic [ref=e56]: Career
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link "Your career at Optibelt":
+                          - /url: /en/c/career/job-offers
+                          - generic: Your career at Optibelt
+                    - generic:
+                      - generic:
+                        - list:
+                          - listitem:
+                            - generic:
+                              - generic:
+                                - link "Job Offers":
+                                  - /url: /en/c/career/job-offers
+                                  - generic: Job Offers
+        - button "GLOBAL | en" [ref=e58] [cursor=pointer]
+    - main [ref=e61]:
+      - generic [ref=e63]:
+        - generic [ref=e68]:
+          - heading "SAVE THE DATE" [level=2] [ref=e69]:
+            - generic [ref=e70]: SAVE THE DATE
+          - list [ref=e74]:
+            - listitem [ref=e75]:
+              - generic [ref=e76]: "Meet us at interpack in Düsseldorf: Hall 18B, Booth D13"
+            - listitem [ref=e77]:
+              - generic [ref=e78]: Discover our customized drive solutions for packaging, transportation, and logistics. We look forward to seeing you!
+          - generic [ref=e79]:
+            - link "Arrange an appointment calendar" [ref=e81] [cursor=pointer]:
+              - /url: mailto:info-omh@optibelt.com
+              - text: Arrange an appointment
+              - img "calendar" [ref=e82]
+            - link "Product Highlights chevron-right" [ref=e85] [cursor=pointer]:
+              - /url: /en/material-handling
+              - text: Product Highlights
+              - img "chevron-right" [ref=e86]
+        - generic [ref=e91]:
+          - heading "High-performance drive belts from one of the world's leading manufacturers" [level=1] [ref=e94]:
+            - generic [ref=e95]: High-performance drive belts from one of the world's leading manufacturers
+          - img "Divider" [ref=e97]
+        - paragraph [ref=e100]:
+          - generic [ref=e101]: Whether in mechanical engineering or the automotive sector, in medical technology, the food industry or in household appliances - we develop industry-specific drive solutions for customers all over the world and have become one of the world's leading manufacturers of high-performance drive belts.
+        - generic [ref=e106]:
+          - button [ref=e108] [cursor=pointer]:
+            - img [ref=e109]
+          - button [ref=e113] [cursor=pointer]:
+            - img [ref=e114]
+          - tablist [ref=e116]:
+            - tab "1 of 2" [selected] [ref=e117] [cursor=pointer]: "1"
+            - tab "2 of 2" [ref=e118] [cursor=pointer]: "2"
+            - tab "3 of 2" [ref=e119] [cursor=pointer]: "3"
+        - generic [ref=e123]:
+          - heading "Our products" [level=3] [ref=e126]:
+            - generic [ref=e127]: Our products
+          - img "Divider" [ref=e129]
+          - paragraph [ref=e132]:
+            - generic [ref=e133]: Whether for specific applications or individual requirements - we offer the right product. Together we will develop a solution that meets your requirements.
+          - link "All Products" [ref=e135] [cursor=pointer]:
+            - /url: /en/all-products
+        - generic [ref=e139]:
+          - button [ref=e141] [cursor=pointer]:
+            - img [ref=e142]
+          - button [ref=e146] [cursor=pointer]:
+            - img [ref=e147]
+          - tablist [ref=e149]:
+            - tab "1 of 3" [selected] [ref=e150] [cursor=pointer]: "1"
+            - tab "2 of 3" [ref=e151] [cursor=pointer]: "2"
+            - tab "3 of 3" [ref=e152] [cursor=pointer]: "3"
+            - tab "4 of 3" [ref=e153] [cursor=pointer]: "4"
+            - tab "5 of 3" [ref=e154] [cursor=pointer]: "5"
+            - tab "6 of 3" [ref=e155] [cursor=pointer]: "6"
+            - tab "7 of 3" [ref=e156] [cursor=pointer]: "7"
+            - tab "8 of 3" [ref=e157] [cursor=pointer]: "8"
+            - tab "9 of 3" [ref=e158] [cursor=pointer]: "9"
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - heading "Our products have received multiple awards for their quality" [level=4] [ref=e161]
+            - heading "Our quality standards" [level=3] [ref=e162]
+          - generic [ref=e164]:
+            - generic [ref=e165]:
+              - img "dialog" [ref=e167]
+              - generic [ref=e169]:
+                - heading "Exchange" [level=4] [ref=e170]
+                - paragraph [ref=e171]: Thanks to a constant exchange with our customers, our developers can react promptly to the needs of the market.
+            - generic [ref=e172]:
+              - img "user" [ref=e174]
+              - generic [ref=e176]:
+                - heading "Innovation" [level=4] [ref=e177]
+                - paragraph [ref=e178]: "We invest in clever minds: the ideas and suggestions of our employees are our innovation pool."
+            - generic [ref=e179]:
+              - img "innovation" [ref=e181]
+              - generic [ref=e183]:
+                - heading "Agility" [level=4] [ref=e184]
+                - paragraph [ref=e185]: Our agile approach means we can always adapt flexibly and respond quickly and efficiently to new market conditions.
+            - generic [ref=e186]:
+              - img "quality" [ref=e188]
+              - generic [ref=e190]:
+                - heading "Quality" [level=4] [ref=e191]
+                - paragraph [ref=e192]: All domestic and foreign production sites work according to the same total quality management system.
+          - link "Our Management System Certification chevron-right" [ref=e194] [cursor=pointer]:
+            - /url: /en/c/about-optibelt/about-us/managementsystem-certification
+            - text: Our Management System Certification
+            - img "chevron-right" [ref=e195]
+        - generic [ref=e200]:
+          - heading "Optibelt News" [level=3] [ref=e203]:
+            - generic [ref=e204]: Optibelt News
+          - img "Divider" [ref=e206]
+        - generic [ref=e211]:
+          - button [ref=e213] [cursor=pointer]:
+            - img [ref=e214]
+          - button [ref=e218] [cursor=pointer]:
+            - img [ref=e219]
+          - tablist [ref=e221]:
+            - tab "1 of 4" [selected] [ref=e222] [cursor=pointer]: "1"
+            - tab "2 of 4" [ref=e223] [cursor=pointer]: "2"
+            - tab "3 of 4" [ref=e224] [cursor=pointer]: "3"
+            - tab "4 of 4" [ref=e225] [cursor=pointer]: "4"
+            - tab "5 of 4" [ref=e226] [cursor=pointer]: "5"
+            - tab "6 of 4" [ref=e227] [cursor=pointer]: "6"
+            - tab "7 of 4" [ref=e228] [cursor=pointer]: "7"
+        - generic [ref=e230]:
+          - generic [ref=e238]:
+            - heading "About Optibelt" [level=3] [ref=e239]
+            - paragraph [ref=e242]:
+              - generic [ref=e243]: A remarkable journey and 153 years of history have shaped the Arntz Optibelt Group into what it is today. The past, present, and future are crucial to our company's success. Over 2,400 employees worldwide are part of the Arntz Optibelt family, ensuring smooth operations.
+            - link "Learn more chevron-right" [ref=e245] [cursor=pointer]:
+              - /url: /en/c/about-optibelt/about-us/about-us/
+              - text: Learn more
+              - img "chevron-right" [ref=e246]
+          - generic [ref=e255]:
+            - heading "Industry Solutions" [level=3] [ref=e256]
+            - paragraph [ref=e259]:
+              - generic [ref=e260]: The industries in which our products are used are just as diverse as our products. From robust kraftbands for agricultural machinery and high-performance V-belts for road construction to precise timing belts for the textile industry - you can find our products in many sectors.
+            - link "Industry Solutions chevron-right" [ref=e262] [cursor=pointer]:
+              - /url: /en/c/product-solutions/industry-solutions
+              - text: Industry Solutions
+              - img "chevron-right" [ref=e263]
+        - generic [ref=e270]:
+          - heading "Do you need a special solution?" [level=3] [ref=e271]
+          - paragraph [ref=e274]:
+            - generic [ref=e275]: Get in touch with our experts and tell us your requirements so that we can assist you quickly and easily with the development of your product. We will support you from the initial recording of your requirements, through the composition of the materials to the final production of your solution.
+          - link "Get in contact dialog" [ref=e278] [cursor=pointer]:
+            - /url: mailto:info@optibelt.com
+            - text: Get in contact
+            - img "dialog" [ref=e279]
+        - generic [ref=e284]:
+          - heading "Optibelt Newsletter" [level=3] [ref=e285]:
+            - generic [ref=e286]: Optibelt Newsletter
+          - heading "We keep you up to date!" [level=4] [ref=e287]:
+            - generic [ref=e288]: We keep you up to date!
+          - paragraph [ref=e289]:
+            - generic [ref=e290]: Register now for the Optibelt newsletter and receive the latest information from the world of power transmission belts.
+          - paragraph [ref=e291]:
+            - generic [ref=e292]: In our regular newsletter we inform you about innovations, progress and much more.
+          - link "Register now envelope" [ref=e295] [cursor=pointer]:
+            - /url: /en/c/service-support/downloads-media/newsletter
+            - text: Register now
+            - img "envelope" [ref=e296]
+    - contentinfo [ref=e298]:
+      - generic [ref=e300]:
+        - generic [ref=e302]:
+          - generic [ref=e303]:
+            - img "Optibelt Logo" [ref=e305]
+            - heading "We keep the world moving sustainably." [level=4] [ref=e306]
+            - list [ref=e307]:
+              - listitem [ref=e308]:
+                - link "GTC" [ref=e309] [cursor=pointer]:
+                  - /url: /en/c/legal/general-terms-and-conditions
+              - listitem [ref=e310]:
+                - link "Imprint" [ref=e311] [cursor=pointer]:
+                  - /url: /en/c/legal/imprint
+              - listitem [ref=e312]:
+                - link "Legal" [ref=e313] [cursor=pointer]:
+                  - /url: /en/c/legal/disclaimer
+              - listitem [ref=e314]:
+                - link "Data Privacy Statement" [ref=e315] [cursor=pointer]:
+                  - /url: /en/c/legal/data-privacy-statement
+          - generic [ref=e317]:
+            - generic [ref=e318]:
+              - heading "Service & Support" [level=5] [ref=e319]
+              - list [ref=e320]:
+                - listitem [ref=e321]:
+                  - link "Seminars" [ref=e322] [cursor=pointer]:
+                    - /url: /en/c/service-support/our-support-service/seminars
+                - listitem [ref=e323]:
+                  - link "Tools" [ref=e324] [cursor=pointer]:
+                    - /url: /en/c/service-support
+                - listitem [ref=e325]:
+                  - link "eServices" [ref=e326] [cursor=pointer]:
+                    - /url: /en/c/service-support
+                - listitem [ref=e327]:
+                  - link "Mediacenter" [ref=e328] [cursor=pointer]:
+                    - /url: /en/c/service-support/downloads-media/mediacenter
+                - listitem [ref=e329]:
+                  - link "Datasheets" [ref=e330] [cursor=pointer]:
+                    - /url: https://www.optibelt.com/en/microsites/data-sheet-selector
+                - listitem [ref=e331]:
+                  - link "Press Releases & News" [ref=e332] [cursor=pointer]:
+                    - /url: /en/c/about-optibelt/get-to-know-us/press-releases
+                - listitem [ref=e333]:
+                  - link "Newsletter" [ref=e334] [cursor=pointer]:
+                    - /url: /en/c/service-support/downloads-media/newsletter
+            - generic [ref=e335]:
+              - heading "About Optibelt" [level=5] [ref=e336]
+              - list [ref=e337]:
+                - listitem [ref=e338]:
+                  - link "About us" [ref=e339] [cursor=pointer]:
+                    - /url: /en/c/about-optibelt/about-us/about-us/
+                - listitem [ref=e340]:
+                  - link "Locations" [ref=e341] [cursor=pointer]:
+                    - /url: /en/c/about-optibelt/about-us/locations
+                - listitem [ref=e342]:
+                  - link "Trade Fairs" [ref=e343] [cursor=pointer]:
+                    - /url: /en/c/about-optibelt/get-to-know-us/trade-fairs
+                - listitem [ref=e344]:
+                  - link "Career" [ref=e345] [cursor=pointer]:
+                    - /url: /en/c/career/job-offers
+                - listitem [ref=e346]:
+                  - link "Compliance" [ref=e347] [cursor=pointer]:
+                    - /url: /en/c/about-optibelt/about-us/compliance
+            - generic [ref=e348]:
+              - heading "Help & Contact" [level=5] [ref=e349]
+              - list [ref=e350]:
+                - listitem [ref=e351]:
+                  - link "FAQ" [ref=e352] [cursor=pointer]:
+                    - /url: /en/c/faq-new-online-presence
+                - listitem [ref=e353]:
+                  - link "For Suppliers" [ref=e354] [cursor=pointer]:
+                    - /url: /en/c/about-optibelt/for-suppliers/purchasing-program
+                - listitem [ref=e355]:
+                  - link "Contact" [ref=e356] [cursor=pointer]:
+                    - /url: /en/c/about-optibelt/get-to-know-us/contact
+        - generic [ref=e360]:
+          - generic [ref=e362]: © 2026 Optibelt GmbH
+          - generic [ref=e363]:
+            - link "Facebook" [ref=e364] [cursor=pointer]:
+              - /url: https://www.facebook.com/optibelt
+              - img "Facebook" [ref=e366]
+            - link "Instagram" [ref=e367] [cursor=pointer]:
+              - /url: https://www.instagram.com/optibelt_group/
+              - img "Instagram" [ref=e369]
+            - link "LinkedIn" [ref=e370] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/optibelt-gmbh/
+              - img "LinkedIn" [ref=e372]
+            - link [ref=e373] [cursor=pointer]:
+              - /url: https://www.youtube.com/@optibeltEN
+  - img

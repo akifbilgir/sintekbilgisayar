@@ -1,0 +1,300 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Özulas Toplu Taşım A.Ş. Özel Halk otobüsleri" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "Özulas Toplu Taşım A.Ş. Özel Halk otobüsleri" [ref=e6]
+  - navigation [ref=e7]:
+    - generic [ref=e8]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Anasayfa" [ref=e11] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e12]:
+          - link "Hakkımızda" [ref=e13] [cursor=pointer]:
+            - /url: /sayfalar.221.hakkimizda.html
+        - listitem [ref=e14]:
+          - link "Özulaş AŞ. sembolü logo" [ref=e15] [cursor=pointer]:
+            - /url: /sayfalar.245.bilanco.html
+        - listitem [ref=e16]:
+          - link "Haberler" [ref=e17] [cursor=pointer]:
+            - /url: /tumhaberler.html
+        - listitem [ref=e18]:
+          - link "Medya" [ref=e19] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e20]:
+          - link "İK" [ref=e21] [cursor=pointer]:
+            - /url: /ik.html
+        - listitem [ref=e22]:
+          - link "Bilgi Toplumu Hizmetleri" [ref=e23] [cursor=pointer]:
+            - /url: https://mths.ttr.com.tr/firmabilgileri.aspx?mersis=0716001146500012
+        - listitem [ref=e24]:
+          - link "İletişim" [ref=e25] [cursor=pointer]:
+            - /url: /iletisim.html
+      - generic [ref=e26]:
+        - generic:
+          - link:
+            - /url: ""
+        - generic:
+          - link:
+            - /url: https://www.facebook.com/pages/%C3%96zula%C5%9F/117461998308942
+  - generic [ref=e28]:
+    - list [ref=e29]:
+      - listitem [ref=e30]:
+        - link [ref=e31] [cursor=pointer]:
+          - /url: https://www.ozulas.com.tr/haberler.1179.%C4%B0ETT%20GENEL%20M%C3%9CD%C3%9CR%C3%9C%20%C4%B0RFAN%20DEMET%20Z%C4%B0YARET%C4%B0
+          - img [ref=e32]
+      - listitem [ref=e33]:
+        - link [ref=e34] [cursor=pointer]:
+          - /url: https://www.ozulas.com.tr/haberler.1170.%C3%96ZULA%C5%9E%20A.%C5%9E.%20BA%C5%9EKANI%20SEDAT%20%C5%9EAH%C4%B0N%E2%80%99DEN%20%C3%96NEML%C4%B0%20MESAJ
+          - img [ref=e35]
+      - listitem [ref=e36]:
+        - link [ref=e37] [cursor=pointer]:
+          - /url: https://www.ozulas.com.tr/haberler.1169.BA%C5%9EKAN%20SEDAT%20%C5%9EAH%C4%B0N%20TEKRAR%20G%C3%9CVENOYU%20ALDI
+          - img [ref=e38]
+      - listitem [ref=e39]:
+        - link [ref=e40] [cursor=pointer]:
+          - /url: https://www.ozulas.com.tr/haberler.1165.%C3%96ZULA%C5%9E%20A%C4%B0LES%C4%B0%2033.%20YILINA%20G%C4%B0RD%C4%B0
+          - img [ref=e41]
+      - listitem [ref=e42]:
+        - link [ref=e43] [cursor=pointer]:
+          - /url: https://www.ozulas.com.tr/haberler.1163.%C3%96ZULA%C5%9E,%20AKILLI%20ULA%C5%9EIM%20S%C4%B0STEMLER%C4%B0%20DERNE%C4%9E%C4%B0%20(AUS)%20%20%C3%9CYEL%C4%B0%C4%9E%C4%B0NE%20KABUL%20ED%C4%B0LD%C4%B0
+          - img [ref=e44]
+      - listitem [ref=e45]:
+        - link [ref=e46] [cursor=pointer]:
+          - /url: https://www.ozulas.com.tr/haberler.1161.%C3%96ZULA%C5%9E%20D%C4%B0J%C4%B0TAL%20DERG%C4%B0S%C4%B0%20YAYINDA
+          - img [ref=e47]
+      - listitem [ref=e48]:
+        - link [ref=e49] [cursor=pointer]:
+          - /url: https://www.ozulas.com.tr/haberler.1160.YEN%C4%B0%20PERFORMANS%20S%C4%B0STEM%C4%B0,%20ESNAF%20LEH%C4%B0NE%20ETK%C4%B0S%C4%B0N%C4%B0%20G%C3%96STERD%C4%B0
+          - img [ref=e50]
+      - listitem [ref=e51]:
+        - link [ref=e52] [cursor=pointer]:
+          - /url: https://www.ozulas.com.tr/haberler.1151.SANCAKTEPE%20BELED%C4%B0YE%20BA%C5%9EKANI%20ALPER%20YE%C4%9E%C4%B0NE%20Z%C4%B0YARET
+          - img [ref=e53]
+      - listitem [ref=e54]:
+        - link [ref=e55] [cursor=pointer]:
+          - /url: https://www.ozulas.com.tr/haberler.1144.TBMM%20%C4%B0DARE%20AM%C4%B0R%C4%B0%20HASAN%20TURAN,%20%20%C3%96ZULA%C5%9E%E2%80%99I%20Z%C4%B0YARET%20ETT%C4%B0
+          - img [ref=e56]
+      - listitem [ref=e57]:
+        - link [ref=e58] [cursor=pointer]:
+          - /url: https://www.ozulas.com.tr/haberler.1143.32%20YILDIR%20G%C3%9CVENLE%20TA%C5%9EIYORUZ
+          - img [ref=e59]
+    - list [ref=e60]:
+      - listitem [ref=e61]: Current
+      - listitem [ref=e62]:
+        - link "Slide428" [ref=e63] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e64]:
+        - link "Slide426" [ref=e65] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e66]:
+        - link "Slide425" [ref=e67] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e68]:
+        - link "Slide423" [ref=e69] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e70]:
+        - link "Slide421" [ref=e71] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e72]:
+        - link "Slide419" [ref=e73] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e74]:
+        - link "Slide418" [ref=e75] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e76]:
+        - link "Slide415" [ref=e77] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e78]:
+        - link "Slide411" [ref=e79] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e80]:
+        - link "Slide410" [ref=e81] [cursor=pointer]:
+          - /url: "#"
+  - generic [ref=e82]:
+    - generic [ref=e83]:
+      - generic [ref=e86]:
+        - generic [ref=e88]:
+          - link [ref=e91] [cursor=pointer]:
+            - /url: https://vsp22.kmk.net.tr/resimler/fotograflar/15_202399135851_2.jpg
+          - link [ref=e94] [cursor=pointer]:
+            - /url: https://vsp22.kmk.net.tr/resimler/fotograflar/15_202399135851_1.jpg
+          - link [ref=e97] [cursor=pointer]:
+            - /url: https://vsp22.kmk.net.tr/resimler/fotograflar/15_202399135827_5.jpg
+          - link [ref=e100] [cursor=pointer]:
+            - /url: https://vsp22.kmk.net.tr/resimler/fotograflar/15_202399135827_4.jpg
+          - link [ref=e103] [cursor=pointer]:
+            - /url: https://vsp22.kmk.net.tr/resimler/fotograflar/15_202399135827_3.jpg
+          - link [ref=e106] [cursor=pointer]:
+            - /url: https://vsp22.kmk.net.tr/resimler/fotograflar/15_202399135827_2.jpg
+          - link [ref=e109] [cursor=pointer]:
+            - /url: https://vsp22.kmk.net.tr/resimler/fotograflar/15_202399135827_1.jpg
+          - link [ref=e112] [cursor=pointer]:
+            - /url: https://vsp22.kmk.net.tr/resimler/fotograflar/15_2018101193130_1.jpg
+        - generic [ref=e113]:
+          - link "Önceki" [ref=e114] [cursor=pointer]:
+            - /url: "#"
+          - link "Sonraki" [ref=e115] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e117]:
+        - heading "Duyurular" [level=4] [ref=e119]
+        - generic [ref=e120]:
+          - link "DUYURU":
+            - /url: /haberler.1211.DUYURU
+            - img "DUYURU" [ref=e121] [cursor=pointer]
+          - link "DUYURU" [ref=e122] [cursor=pointer]:
+            - /url: /haberler.1211.DUYURU
+          - emphasis [ref=e123]: 14-03-2026
+        - generic [ref=e124]:
+          - link "BİLGİ TOPLUMU HİZMETLERİ (MTHS)":
+            - /url: /haberler.1209. BİLGİ TOPLUMU HİZMETLERİ (MTHS)
+            - img "BİLGİ TOPLUMU HİZMETLERİ (MTHS)" [ref=e125] [cursor=pointer]
+          - link "BİLGİ TOPLUMU HİZMETLERİ (MTHS)" [ref=e126] [cursor=pointer]:
+            - /url: /haberler.1209. BİLGİ TOPLUMU HİZMETLERİ (MTHS)
+          - emphasis [ref=e127]: 16-02-2026
+      - generic:
+        - generic:
+          - generic [ref=e128]:
+            - link "FSM":
+              - /url: https://www.fsmdemirbas.com.tr/
+              - img "FSM" [ref=e129] [cursor=pointer]
+          - generic [ref=e130]:
+            - link "29.yıl":
+              - /url: www.ozulas.com.tr
+              - img "29.yıl" [ref=e131] [cursor=pointer]
+      - generic:
+        - generic:
+          - heading "Haberler" [level=4] [ref=e133]
+          - generic [ref=e134]:
+            - link "ŞOFÖR EĞİTİMLERİ ARALIKSIZ SÜRÜYOR":
+              - /url: /haberler.1213.ŞOFÖR EĞİTİMLERİ ARALIKSIZ SÜRÜYOR
+              - img "ŞOFÖR EĞİTİMLERİ ARALIKSIZ SÜRÜYOR" [ref=e135] [cursor=pointer]
+            - link "ŞOFÖR EĞİTİMLERİ ARALIKSIZ SÜRÜYOR" [ref=e136] [cursor=pointer]:
+              - /url: /haberler.1213.ŞOFÖR EĞİTİMLERİ ARALIKSIZ SÜRÜYOR
+            - emphasis [ref=e137]: 25-03-2026
+          - generic [ref=e138]:
+            - link "BAYRAMINIZ MÜBAREK OLSUN":
+              - /url: /haberler.1212.BAYRAMINIZ MÜBAREK OLSUN
+              - img "BAYRAMINIZ MÜBAREK OLSUN" [ref=e139] [cursor=pointer]
+            - link "BAYRAMINIZ MÜBAREK OLSUN" [ref=e140] [cursor=pointer]:
+              - /url: /haberler.1212.BAYRAMINIZ MÜBAREK OLSUN
+            - emphasis [ref=e141]: 19-03-2026
+          - generic [ref=e142]:
+            - link "BİLGİLENDİRME":
+              - /url: /haberler.1208.BİLGİLENDİRME
+              - img "BİLGİLENDİRME" [ref=e143] [cursor=pointer]
+            - link "BİLGİLENDİRME" [ref=e144] [cursor=pointer]:
+              - /url: /haberler.1208.BİLGİLENDİRME
+            - emphasis [ref=e145]: 11-02-2026
+          - generic [ref=e146]:
+            - link "EĞİTİMDE SAHA SORUNLARI ÖN PLANA ÇIKTI":
+              - /url: /haberler.1207.EĞİTİMDE SAHA SORUNLARI ÖN PLANA ÇIKTI
+              - img "EĞİTİMDE SAHA SORUNLARI ÖN PLANA ÇIKTI" [ref=e147] [cursor=pointer]
+            - link "EĞİTİMDE SAHA SORUNLARI ÖN PLANA ÇIKTI" [ref=e148] [cursor=pointer]:
+              - /url: /haberler.1207.EĞİTİMDE SAHA SORUNLARI ÖN PLANA ÇIKTI
+            - emphasis [ref=e149]: 11-02-2026
+          - generic [ref=e150]:
+            - link "ÖHO ESNAF ODASI YÖNETİMİNE HAYIRLI OLSUN ZİYARETİ":
+              - /url: /haberler.1206.ÖHO ESNAF ODASI YÖNETİMİNE HAYIRLI OLSUN ZİYARETİ
+              - img "ÖHO ESNAF ODASI YÖNETİMİNE HAYIRLI OLSUN ZİYARETİ" [ref=e151] [cursor=pointer]
+            - link "ÖHO ESNAF ODASI YÖNETİMİNE HAYIRLI OLSUN ZİYARETİ" [ref=e152] [cursor=pointer]:
+              - /url: /haberler.1206.ÖHO ESNAF ODASI YÖNETİMİNE HAYIRLI OLSUN ZİYARETİ
+            - emphasis [ref=e153]: 09-02-2026
+          - generic [ref=e154]:
+            - link "HABAŞ OTOBÜS FİRMASINA ZİYARET":
+              - /url: /haberler.1205.HABAŞ OTOBÜS FİRMASINA ZİYARET
+              - img "HABAŞ OTOBÜS FİRMASINA ZİYARET" [ref=e155] [cursor=pointer]
+            - link "HABAŞ OTOBÜS FİRMASINA ZİYARET" [ref=e156] [cursor=pointer]:
+              - /url: /haberler.1205.HABAŞ OTOBÜS FİRMASINA ZİYARET
+            - emphasis [ref=e157]: 04-02-2026
+          - generic [ref=e158]:
+            - link "TOPLU TAŞIMADA GÜVENLİK EĞİTİMLERİ ARALIKSIZ SÜRÜYOR":
+              - /url: /haberler.1204.TOPLU TAŞIMADA GÜVENLİK EĞİTİMLERİ ARALIKSIZ SÜRÜYOR
+              - img "TOPLU TAŞIMADA GÜVENLİK EĞİTİMLERİ ARALIKSIZ SÜRÜYOR" [ref=e159] [cursor=pointer]
+            - link "TOPLU TAŞIMADA GÜVENLİK EĞİTİMLERİ ARALIKSIZ SÜRÜYOR" [ref=e160] [cursor=pointer]:
+              - /url: /haberler.1204.TOPLU TAŞIMADA GÜVENLİK EĞİTİMLERİ ARALIKSIZ SÜRÜYOR
+            - emphasis [ref=e161]: 04-02-2026
+          - generic [ref=e162]:
+            - link "DUYURU":
+              - /url: /haberler.1203.DUYURU
+              - img "DUYURU" [ref=e163] [cursor=pointer]
+            - link "DUYURU" [ref=e164] [cursor=pointer]:
+              - /url: /haberler.1203.DUYURU
+            - emphasis [ref=e165]: 29-01-2026
+          - generic [ref=e166]:
+            - link "TOPLU TAŞIMADA GÜVENLİK ÖNCELİĞİMİZDİR":
+              - /url: /haberler.1202.TOPLU TAŞIMADA GÜVENLİK ÖNCELİĞİMİZDİR
+              - img "TOPLU TAŞIMADA GÜVENLİK ÖNCELİĞİMİZDİR" [ref=e167] [cursor=pointer]
+            - link "TOPLU TAŞIMADA GÜVENLİK ÖNCELİĞİMİZDİR" [ref=e168] [cursor=pointer]:
+              - /url: /haberler.1202.TOPLU TAŞIMADA GÜVENLİK ÖNCELİĞİMİZDİR
+            - emphasis [ref=e169]: 28-01-2026
+          - generic [ref=e170]:
+            - link "ŞOFÖRLERE GÜVENLİK VE SAHA EĞİTİMİ DEVAM EDİYOR":
+              - /url: /haberler.1201.ŞOFÖRLERE GÜVENLİK VE SAHA EĞİTİMİ DEVAM EDİYOR
+              - img "ŞOFÖRLERE GÜVENLİK VE SAHA EĞİTİMİ DEVAM EDİYOR" [ref=e171] [cursor=pointer]
+            - link "ŞOFÖRLERE GÜVENLİK VE SAHA EĞİTİMİ DEVAM EDİYOR" [ref=e172] [cursor=pointer]:
+              - /url: /haberler.1201.ŞOFÖRLERE GÜVENLİK VE SAHA EĞİTİMİ DEVAM EDİYOR
+            - emphasis [ref=e173]: 27-01-2026
+      - generic:
+        - generic:
+          - generic [ref=e174]:
+            - heading "Finansal tablolar" [level=4] [ref=e175]:
+              - link "Finansal tablolar" [ref=e176] [cursor=pointer]:
+                - /url: /sayfalar.354.www.ozulas.com.tr
+            - link "Finansal tablolar":
+              - /url: /sayfalar.354.www.ozulas.com.tr
+              - img "Finansal tablolar" [ref=e177] [cursor=pointer]
+            - paragraph [ref=e178]: AYRINTILI BİLANÇO
+          - generic [ref=e179]:
+            - heading "Başkanın Mesajı" [level=4] [ref=e180]:
+              - link "Başkanın Mesajı" [ref=e181] [cursor=pointer]:
+                - /url: /sayfalar.225.baskanin-mesaji.html
+            - link "Başkanın Mesajı":
+              - /url: /sayfalar.225.baskanin-mesaji.html
+              - img "Başkanın Mesajı" [ref=e182] [cursor=pointer]
+            - paragraph [ref=e183]: Değerli İstanbullular,
+    - generic [ref=e185]:
+      - link [ref=e187] [cursor=pointer]:
+        - /url: http://185.106.209.11:4446/
+        - img [ref=e188]
+      - link [ref=e190] [cursor=pointer]:
+        - /url: https://bilgi.ozulas.com.tr/login.asp
+        - img [ref=e191]
+      - generic [ref=e192]:
+        - link "ÖZULAŞ DERGİ":
+          - /url: https://vsp22.kmk.net.tr/resimler/dosyalar/15_20247315404.pdf
+          - img "ÖZULAŞ DERGİ" [ref=e193] [cursor=pointer]
+      - generic [ref=e194]:
+        - heading "Özulaş Video" [level=4] [ref=e195]:
+          - link "Özulaş Video" [ref=e196] [cursor=pointer]:
+            - /url: /videolar.html
+        - link "BAŞKAN SEDAT ŞAHİN GENEL KURUL KONŞMASI" [ref=e198] [cursor=pointer]:
+          - /url: " https://youtu.be/7O4AITLYGO8?si=cNhYfVyf9CWeioOm"
+          - img [ref=e200]
+      - generic [ref=e201]:
+        - link "Toplu Taşım Haber" [ref=e203] [cursor=pointer]:
+          - /url: https://www.toplutasimhaber.com/
+        - link "Yol Durumu/Kameralar" [ref=e205] [cursor=pointer]:
+          - /url: http://tkm.ibb.gov.tr/ErrorPage.html?aspxerrorpath=/yolDurumu/Kameralar.aspx
+        - link "Trafik İşlemleri" [ref=e207] [cursor=pointer]:
+          - /url: http://www.trafik.gov.tr/Sayfalar/default.aspx
+        - link "Meteoroloji" [ref=e209] [cursor=pointer]:
+          - /url: http://sehirrehberi.ibb.gov.tr/map.aspx?&rw=1f4&cl=3f4
+      - link [ref=e210] [cursor=pointer]:
+        - /url: /sikayet-oneri.html
+      - generic [ref=e211]:
+        - strong [ref=e212]: E-Bülten Üyeliği
+        - generic [ref=e213]:
+          - textbox "Adınız-Soyadınız" [ref=e215]
+          - textbox "E-mail Adresiniz" [ref=e217]
+          - button "KAYIT OL" [ref=e218]
+  - generic [ref=e221]:
+    - img "Kmk Bilişim" [ref=e222]
+    - generic [ref=e223]:
+      - text: ©2013 Özulas Toplu Taşım A.Ş. Özel Halk otobüsleri Tüm Hakları Saklıdır.
+      - link "Web Tasarım" [ref=e224] [cursor=pointer]:
+        - /url: https://www.vspteknoloji.com
+      - text: VSP Altyapısıyla oluşturulmuştur |
+      - link "KMK" [ref=e225] [cursor=pointer]:
+        - /url: https://www.kmk.net.tr
+      - text: Tarafından Desteklenmektedir.

@@ -5,14 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog ve Duyurular | Sintek Bilgisayar</title>
   <meta name="description" content="ERP, e-Dönüşüm ve mevzuat hakkında güncel bilgiler, rehberler ve duyurular.">
-  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <link rel="canonical" href="https://www.sintekbilgisayar.com.tr/blog/">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/base.css">
   <link rel="stylesheet" href="../assets/css/layout.css">
   <link rel="stylesheet" href="../assets/css/components.css">
-<script>!function(){var t=localStorage.getItem("sintek-theme")||"light",a="system"===t?window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light":t;document.documentElement.setAttribute("data-theme",a)}();</script>
+<script>!function(){var t=localStorage.getItem("sintek-theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");document.documentElement.setAttribute("data-theme",t)}();</script>
 </head>
 <body>
 
@@ -36,9 +37,6 @@
       </button>
       <button class="theme-btn" data-t="dark" title="Koyu">
         <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-      </button>
-      <button class="theme-btn" data-t="system" title="Sistem">
-        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" stroke-linejoin="round"/><path stroke-linecap="round" d="M8 21h8M12 17v4"/></svg>
       </button>
     </div>    <a href="../iletisim.html" class="btn btn-primary header-cta">İletişime Geç</a>
     <button class="nav-toggle" id="nav-toggle" aria-label="Menüyü aç/kapat" aria-expanded="false">
@@ -147,12 +145,12 @@
   </div>
   <div class="footer-bottom container">
     <p>&copy; <span id="footer-year"></span> Sintek Bilgisayar — Tüm hakları saklıdır.</p>
-    <p><a href="#">KVKK Aydınlatma Metni</a> &nbsp;·&nbsp; <a href="#">Çerez Politikası</a></p>
+    <p><a href="../kvkk.html">KVKK Aydınlatma Metni</a> &nbsp;·&nbsp; <a href="../cerez-politikasi.html">Çerez Politikası</a></p>
   </div>
 </footer>
 
 <div class="kvkk-banner" id="kvkk-banner" role="dialog" aria-label="KVKK Bildirimi">
-  <p>Bu web sitesi, deneyiminizi iyileştirmek amacıyla çerezler kullanmaktadır. <a href="#">KVKK Aydınlatma Metni</a></p>
+  <p>Bu web sitesi, deneyiminizi iyileştirmek amacıyla çerezler kullanmaktadır. <a href="../kvkk.html">KVKK Aydınlatma Metni</a></p>
   <button class="btn btn-primary btn-sm" id="kvkk-accept">Kabul Et</button>
 </div>
 

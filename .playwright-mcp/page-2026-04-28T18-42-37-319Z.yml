@@ -1,0 +1,17 @@
+- generic [active] [ref=e1]:
+  - img [ref=e6]
+  - generic [ref=e15]:
+    - generic [ref=e16]: 28 Yıllık Deneyim · 100+ Müşteri
+    - heading "Sintek Bilgisayar" [level=1] [ref=e17]
+    - paragraph [ref=e18]:
+      - text: ERP yazılım satışı, kullanıcı eğitimi, teknik destek
+      - text: ve e-Dönüşüm çözümlerinde güvenilir iş ortağınız.
+    - generic [ref=e19]:
+      - generic [ref=e20]: Link ERP
+      - generic [ref=e21]: Mysoft ERP
+      - generic [ref=e22]: e-Fatura
+      - generic [ref=e23]: e-Arşiv
+      - generic [ref=e24]: e-Defter
+  - generic [ref=e25]:
+    - generic [ref=e26]: Sintek Bilgisayar
+    - generic [ref=e27]: sintekbilgisayar.com.tr

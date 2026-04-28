@@ -1,0 +1,95 @@
+[      95ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5500/favicon.ico:0
+[   96097ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5500/assets/img/partners/link.svg:0
+[   96134ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5500/assets/img/partners/mysoft.svg:0
+[   96135ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5500/assets/img/partners/arkimza.svg:0
+[   97541ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5500/assets/img/partners/link.svg:0
+[   97580ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5500/assets/img/partners/mysoft.svg:0
+[   97581ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5500/assets/img/partners/arkimza.svg:0
+[  107805ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/birlikorme.com.tr:0
+[  107809ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/bilkim.com.tr:0
+[  107809ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/cantekstil.com.tr:0
+[  107809ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/emfa.com.tr:0
+[  107809ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/esenelektronik.com:0
+[  107809ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/gemden.com.tr:0
+[  107868ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/marsis.com.tr:0
+[  107870ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/hikmettekstil.com:0
+[  107870ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/optibelt.com:0
+[  107870ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/rapak.com:0
+[  107871ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/obo-bettermann.com:0
+[  107871ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/ozulas.com.tr:0
+[  107930ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/roedl.com:0
+[  107932ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/dore.com.tr:0
+[  107932ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/untel.com.tr:0
+[  107932ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/swisssteel-group.com:0
+[  107932ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/unkakablo.com.tr:0
+[  107932ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/saintbenoit.k12.tr:0
+[  107993ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/wks-textil.de:0
+[  938187ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5500/assets/img/partners/link.svg:0
+[  938188ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5500/assets/img/partners/mysoft.svg:0
+[  938188ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5500/assets/img/partners/arkimza.svg:0
+[  940170ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/emfa.com.tr:0
+[  940173ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/esenelektronik.com:0
+[  940173ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/gemden.com.tr:0
+[  940173ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/bilkimgroup.com:0
+[  940173ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/birlikorme.com.tr:0
+[  940174ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/cantekstil.com.tr:0
+[  940234ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/ozulas.com.tr:0
+[  940240ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/rapakcasing.com:0
+[  940241ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/optibelt.com:0
+[  940241ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/oboblog.com:0
+[  940241ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/hikmettekstil.com:0
+[  940241ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/marsismobilya.com.tr:0
+[  940289ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/unkakablo.com.tr:0
+[  940290ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/untel.com.tr:0
+[  940290ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/dore.com.tr:0
+[  940290ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/swisssteel-group.com:0
+[  940291ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/sb.k12.tr:0
+[  940291ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/roedl.com.tr:0
+[  940353ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/wks-textil.de:0
+[ 1026036ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/bilkimgroup.com:0
+[ 1026040ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/cantekstil.com.tr:0
+[ 1026040ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/birlikorme.com.tr:0
+[ 1026040ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/emfa.com.tr:0
+[ 1026041ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/esenelektronik.com:0
+[ 1026041ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/gemden.com.tr:0
+[ 1026418ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/oboblog.com:0
+[ 1026423ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/marsismobilya.com.tr:0
+[ 1026424ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/hikmettekstil.com:0
+[ 1026424ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/rapakcasing.com:0
+[ 1026424ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/optibelt.com:0
+[ 1026424ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/ozulas.com.tr:0
+[ 1026471ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/sb.k12.tr:0
+[ 1026473ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/roedl.com.tr:0
+[ 1026473ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/dore.com.tr:0
+[ 1026473ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/untel.com.tr:0
+[ 1026473ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/swisssteel-group.com:0
+[ 1026473ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/unkakablo.com.tr:0
+[ 1026549ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/wks-textil.de:0
+[ 1033738ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/esenelektronik.com:0
+[ 1033742ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/gemden.com.tr:0
+[ 1033742ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/bilkimgroup.com:0
+[ 1033742ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/emfa.com.tr:0
+[ 1033742ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/cantekstil.com.tr:0
+[ 1033742ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/birlikorme.com.tr:0
+[ 1033818ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/ozulas.com.tr:0
+[ 1033819ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/rapakcasing.com:0
+[ 1033819ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/optibelt.com:0
+[ 1033819ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/oboblog.com:0
+[ 1033820ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/marsismobilya.com.tr:0
+[ 1033820ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/hikmettekstil.com:0
+[ 1033872ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/untel.com.tr:0
+[ 1033874ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/unkakablo.com.tr:0
+[ 1033874ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/swisssteel-group.com:0
+[ 1033874ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/sb.k12.tr:0
+[ 1033874ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/roedl.com.tr:0
+[ 1033874ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/dore.com.tr:0
+[ 1033937ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://logo.clearbit.com/wks-textil.de:0
+[ 1035793ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5500/assets/img/partners/link.svg:0
+[ 1035793ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5500/assets/img/partners/mysoft.svg:0
+[ 1035793ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5500/assets/img/partners/arkimza.svg:0
+[ 1042854ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5500/assets/img/partners/link.svg:0
+[ 1042855ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5500/assets/img/partners/mysoft.svg:0
+[ 1042856ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5500/assets/img/partners/arkimza.svg:0
+[ 1175479ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5500/assets/img/partners/link.svg:0
+[ 1175480ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5500/assets/img/partners/mysoft.svg:0
+[ 1175480ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5500/assets/img/partners/arkimza.svg:0

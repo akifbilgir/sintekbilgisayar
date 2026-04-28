@@ -1,0 +1,5 @@
+[     805ms] [LOG]  Initializing Smart Data Protector @ https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js:0
+[     836ms] ReferenceError: dataLayer is not defined
+    at https://web.optibelt.com/:54:9
+[     841ms] ReferenceError: dataLayer is not defined
+    at https://web.optibelt.com/:66:6

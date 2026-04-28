@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.sintekbilgisayar.com.tr/sitemap.xml

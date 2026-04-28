@@ -1,0 +1,3 @@
+[     675ms] ReferenceError: grecaptcha is not defined
+    at https://www.cantekstil.com.tr/:93:2
+[    9877ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.cantekstil.com.tr/favicon.ico:0

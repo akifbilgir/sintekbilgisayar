@@ -495,17 +495,19 @@
   padding: 2rem 1.75rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .contact-form-left h2 {
   font-size: 1rem;
   font-weight: 600;
   color: var(--chrome-text);
   line-height: 1.4;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0;
 }
 .contact-form-left h2 span { color: var(--turquoise); }
-.cfl-logo { width: auto; align-self: flex-start; margin-bottom: 1rem; }
-.cfl-details { margin-top: auto; display: flex; flex-direction: column; gap: 0.7rem; }
+.cfl-top { display: flex; flex-direction: column; gap: 1rem; }
+.cfl-logo { height: 60px; width: auto; align-self: flex-start; }
+.cfl-details { display: flex; flex-direction: column; gap: 0.7rem; }
 .cfl-detail { display: flex; align-items: center; gap: 0.6rem; color: var(--chrome-muted); font-size: 0.88rem; text-decoration: none; }
 .cfl-detail:hover { color: var(--turquoise); }
 .cfl-detail svg { color: var(--turquoise); flex-shrink: 0; width: 16px; height: 16px; }

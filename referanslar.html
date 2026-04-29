@@ -16,6 +16,13 @@
 <script>!function(){var t=localStorage.getItem("sintek-theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");document.documentElement.setAttribute("data-theme",t)}();</script>
 </head>
 <body>
+<div id="page-loader" aria-hidden="true">
+  <svg class="pl-svg" viewBox="0 0 74 52" xmlns="http://www.w3.org/2000/svg">
+    <polygon class="pl-t pl-t1" fill="#F07572" points="0,2 34,26 0,50"/>
+    <polygon class="pl-t pl-t2" fill="#2DCEC0" points="18,2 52,26 18,50"/>
+    <polygon class="pl-t pl-t3" fill="#F07572" points="36,2 70,26 36,50"/>
+  </svg>
+</div>
 
 <header class="site-header" id="site-header">
   <div class="container header-inner">
@@ -143,9 +150,18 @@
   </div>
 </footer>
 
-<div class="kvkk-banner" id="kvkk-banner" role="dialog" aria-label="KVKK Bildirimi">
-  <p>Bu web sitesi, deneyiminizi iyileştirmek amacıyla çerezler kullanmaktadır. <a href="kvkk.html">KVKK Aydınlatma Metni</a></p>
-  <button class="btn btn-primary btn-sm" id="kvkk-accept">Kabul Et</button>
+<div class="kvkk-banner" id="kvkk-banner" role="dialog" aria-label="Çerez Politikası">
+  <div class="kvkk-body">
+    <svg class="kvkk-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4m0 4h.01"/></svg>
+    <div class="kvkk-text">
+      <strong>Çerez Kullanımı</strong>
+      <p>Bu site deneyiminizi iyileştirmek için çerez kullanmaktadır. <a href="cerez-politikasi.html">Çerez Politikası</a> ve <a href="kvkk.html">KVKK Aydınlatma Metni</a>'ni okuyabilirsiniz.</p>
+    </div>
+  </div>
+  <div class="kvkk-actions">
+    <button class="btn btn-sm kvkk-reject-btn" id="kvkk-reject">Reddet</button>
+    <button class="btn btn-primary btn-sm" id="kvkk-accept">Kabul Et</button>
+  </div>
 </div>
 
 <script src="assets/js/main.js?v=2" defer></script>

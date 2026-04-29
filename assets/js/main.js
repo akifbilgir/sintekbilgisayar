@@ -134,6 +134,20 @@ if (revealEls.length && 'IntersectionObserver' in window) {
   startTimer();
 })();
 
+// ===== Page Loader =====
+(function () {
+  var loader = document.getElementById('page-loader');
+  if (!loader) return;
+  var start = Date.now();
+  window.addEventListener('load', function () {
+    var wait = Math.max(0, 1300 - (Date.now() - start));
+    setTimeout(function () {
+      loader.classList.add('pl-out');
+      setTimeout(function () { loader.remove(); }, 500);
+    }, wait);
+  });
+})();
+
 // ===== Theme Switcher =====
 (function () {
   const KEY = 'sintek-theme';

@@ -55,10 +55,15 @@
   border-radius: var(--radius-sm);
   transition: color var(--transition), background var(--transition);
 }
-.nav-link:hover,
-.nav-link.active {
-  color: var(--turquoise);
+.nav-link:hover {
+  color: var(--chrome-text);
   background: var(--turquoise-glow);
+}
+.nav-link.active {
+  color: var(--chrome-text);
+  background: var(--turquoise-glow);
+  font-weight: 700;
+  border-bottom: 2px solid var(--turquoise);
 }
 
 .header-cta { margin-left: 0.5rem; flex-shrink: 0; }
@@ -162,8 +167,8 @@
 }
 
 /* ===== Sections ===== */
-.section    { padding: 5rem 0; }
-.section-sm { padding: 3rem 0; }
+.section    { padding: 3rem 0 4rem; }
+.section-sm { padding: 2rem 0 2.5rem; }
 
 .section-header {
   max-width: 640px;
@@ -187,8 +192,10 @@
 
 /* ===== Inner page hero ===== */
 .page-hero {
-  padding: 3.5rem 0 2.5rem;
+  padding: 1.875rem 0 1.3rem;
   border-bottom: 1px solid var(--turquoise-border);
+  text-align: center;
 }
-.page-hero h1 { margin-top: 0.4rem; }
+.page-hero .container { display: flex; flex-direction: column; align-items: center; }
+.page-hero h1 { margin-top: 0.4rem; font-size: clamp(1.5rem, 3.5vw, 2.25rem); }
 .page-hero p  { margin-top: 0.75rem; max-width: 600px; font-size: 1rem; }

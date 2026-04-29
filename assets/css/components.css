@@ -504,6 +504,7 @@
   margin-bottom: 2rem;
 }
 .contact-form-left h2 span { color: var(--turquoise); }
+.cfl-logo { height: 52px; width: auto; align-self: flex-start; margin-bottom: 1.5rem; }
 .cfl-details { margin-top: auto; display: flex; flex-direction: column; gap: 0.9rem; }
 .cfl-detail { display: flex; align-items: center; gap: 0.75rem; color: var(--chrome-muted); font-size: 0.95rem; text-decoration: none; }
 .cfl-detail:hover { color: var(--turquoise); }

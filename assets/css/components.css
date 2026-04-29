@@ -535,6 +535,7 @@
   transition: border-color var(--transition), box-shadow var(--transition);
 }
 .cf-control:focus { outline: none; border-color: var(--turquoise); box-shadow: 0 0 0 3px rgba(48,227,202,0.15); }
+.cf-control.cf-invalid { border-color: var(--danger); box-shadow: 0 0 0 3px rgba(220,38,38,0.12); }
 textarea.cf-control { resize: vertical; min-height: 120px; }
 .cf-honeypot { position: absolute; left: -9999px; height: 0; overflow: hidden; opacity: 0; }
 .cf-captcha-wrap { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem; flex-direction: row; }

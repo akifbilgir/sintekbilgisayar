@@ -242,38 +242,75 @@
 
 <script>
 (function () {
+  /* ---- Web3Forms access key ---- */
+  var W3F_KEY = 'BURAYA_KEY_GIRIN'; // web3forms.com > Enter email > Get Free Access Key
+
   var form    = document.getElementById('contact-form');
   var success = document.getElementById('cf-success');
   var errMsg  = document.getElementById('cf-error');
+  var submitBtn = form ? form.querySelector('[type="submit"]') : null;
   if (!form) return;
 
   var loadedAt = Date.now();
 
   /* CAPTCHA */
-  var ca = Math.floor(Math.random() * 9) + 1;
-  var cb = Math.floor(Math.random() * 9) + 1;
-  document.getElementById('cf-captcha-q').textContent = ca + ' + ' + cb;
-  var captchaAnswer = ca + cb;
+  var ca, cb, captchaAnswer;
+  function newCaptcha() {
+    ca = Math.floor(Math.random() * 9) + 1;
+    cb = Math.floor(Math.random() * 9) + 1;
+    document.getElementById('cf-captcha-q').textContent = ca + ' + ' + cb;
+    captchaAnswer = ca + cb;
+    document.getElementById('cf-captcha').value = '';
+  }
+  newCaptcha();
 
+  /* Hata göster */
   function showErr(msg) {
     errMsg.textContent = msg;
     errMsg.style.display = 'block';
   }
 
+  /* Alan kırmızı yap / temizle */
+  function markInvalid(id) {
+    var el = document.getElementById(id);
+    if (el) el.classList.add('cf-invalid');
+  }
+  function clearInvalid() {
+    form.querySelectorAll('.cf-invalid').forEach(function(el) {
+      el.classList.remove('cf-invalid');
+    });
+    errMsg.style.display = 'none';
+  }
+
+  /* Herhangi bir alana yazınca kırmızıyı kaldır */
+  form.addEventListener('input', clearInvalid);
+  form.addEventListener('change', clearInvalid);
+
+  /* Formu sıfırla */
+  function resetForm() {
+    form.reset();
+    clearInvalid();
+    newCaptcha();
+    submitBtn.disabled = false;
+    submitBtn.textContent = 'Bize Ulaşın';
+    form.hidden = false;
+    success.hidden = true;
+  }
+
   form.addEventListener('submit', function (e) {
     e.preventDefault();
-    errMsg.style.display = 'none';
+    clearInvalid();
 
     /* 1. Honeypot */
     if (document.getElementById('cf-website').value) return;
 
-    /* 2. Zamanlama — 3 saniyeden kısa doldurulamaz */
+    /* 2. Zamanlama */
     if (Date.now() - loadedAt < 3000) {
       showErr('Lütfen formu eksiksiz doldurunuz.');
       return;
     }
 
-    /* 3. Rate limit — 5 dakikada bir gönderim */
+    /* 3. Rate limit */
     var lastSent = parseInt(localStorage.getItem('sintek-form-ts') || '0');
     if (Date.now() - lastSent < 5 * 60 * 1000) {
       var kalan = Math.ceil((5 * 60 * 1000 - (Date.now() - lastSent)) / 60000);
@@ -282,54 +319,71 @@
     }
 
     /* 4. Zorunlu alanlar */
-    var name  = document.getElementById('cf-name').value.trim();
-    var email = document.getElementById('cf-email').value.trim();
-    var phone = document.getElementById('cf-phone').value.trim();
-    var kvkk  = document.getElementById('cf-kvkk').checked;
-    var aydin = document.getElementById('cf-aydinlatma').checked;
-    if (!name || !email || !phone || !kvkk || !aydin) {
-      showErr('Lütfen zorunlu alanları doldurun ve onay kutularını işaretleyin.');
+    var name    = document.getElementById('cf-name').value.trim();
+    var email   = document.getElementById('cf-email').value.trim();
+    var phone   = document.getElementById('cf-phone').value.trim();
+    var company = document.getElementById('cf-company').value.trim();
+    var message = document.getElementById('cf-message').value.trim();
+    var kvkk    = document.getElementById('cf-kvkk').checked;
+    var aydin   = document.getElementById('cf-aydinlatma').checked;
+    var hasErr  = false;
+
+    if (!name)  { markInvalid('cf-name');  hasErr = true; }
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) { markInvalid('cf-email'); hasErr = true; }
+    if (!phone || phone.replace(/\D/g,'').length < 10) { markInvalid('cf-phone'); hasErr = true; }
+    if (!kvkk || !aydin) { hasErr = true; }
+
+    if (hasErr) {
+      showErr('Lütfen kırmızı alanları düzeltin ve onay kutularını işaretleyin.');
       return;
     }
 
-    /* 5. E-posta formatı */
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
-      showErr('Geçerli bir e-posta adresi girin.');
-      return;
-    }
-
-    /* 6. Telefon — en az 10 rakam */
-    if (phone.replace(/\D/g, '').length < 10) {
-      showErr('Geçerli bir telefon numarası girin.');
-      return;
-    }
-
-    /* 7. CAPTCHA */
+    /* 5. CAPTCHA */
     var captchaVal = parseInt(document.getElementById('cf-captcha').value);
     if (isNaN(captchaVal) || captchaVal !== captchaAnswer) {
+      markInvalid('cf-captcha');
       showErr('Güvenlik sorusu yanlış. Lütfen tekrar deneyin.');
-      /* Yeni soru üret */
-      ca = Math.floor(Math.random() * 9) + 1;
-      cb = Math.floor(Math.random() * 9) + 1;
-      document.getElementById('cf-captcha-q').textContent = ca + ' + ' + cb;
-      captchaAnswer = ca + cb;
-      document.getElementById('cf-captcha').value = '';
+      newCaptcha();
       return;
     }
 
-    /* Gönder */
-    localStorage.setItem('sintek-form-ts', Date.now().toString());
-    var subject = encodeURIComponent('Web Sitesi İletişim Formu – ' + name);
-    var body = encodeURIComponent(
-      'Ad Soyad: ' + name + '\n' +
-      'E-posta: ' + email + '\n' +
-      'Telefon: ' + phone + '\n' +
-      'Firma: ' + (document.getElementById('cf-company').value.trim() || '–') + '\n\n' +
-      'Mesaj:\n' + (document.getElementById('cf-message').value.trim() || '–')
-    );
-    window.location.href = 'mailto:info@sintekbilgisayar.com.tr?subject=' + subject + '&body=' + body;
-    form.hidden = true;
-    success.hidden = false;
+    /* 6. Gönder */
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Gönderiliyor…';
+    errMsg.style.display = 'none';
+
+    fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({
+        access_key: W3F_KEY,
+        subject: 'Web Sitesi İletişim Formu – ' + name,
+        name: name,
+        email: email,
+        phone: phone,
+        company: company || '–',
+        message: message || '–',
+        from_name: 'Sintek Web Formu'
+      })
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      if (data.success) {
+        localStorage.setItem('sintek-form-ts', Date.now().toString());
+        form.hidden = true;
+        success.hidden = false;
+        setTimeout(resetForm, 4000);
+      } else {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Bize Ulaşın';
+        showErr('Mesaj gönderilemedi. Lütfen daha sonra tekrar deneyin.');
+      }
+    })
+    .catch(function() {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Bize Ulaşın';
+      showErr('Bağlantı hatası. Lütfen internet bağlantınızı kontrol edin.');
+    });
   });
 })();
 </script>

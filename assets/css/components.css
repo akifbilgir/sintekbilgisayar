@@ -490,7 +490,7 @@
   border: 1px solid var(--border);
 }
 .contact-form-left {
-  background: linear-gradient(160deg, #1a3244 0%, #0c1f2c 100%);
+  background: var(--chrome-bg);
   border-right: 1px solid var(--turquoise-border);
   padding: 3rem 2.5rem;
   display: flex;
@@ -499,17 +499,15 @@
 .contact-form-left h2 {
   font-size: 1.75rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--chrome-text);
   line-height: 1.25;
   margin-bottom: 2rem;
 }
-.contact-form-left h2 span { color: #30e3ca; }
-.cfl-logo { filter: brightness(0) invert(1); }
-.contact-form-left .logo-text { color: #30e3ca; }
+.contact-form-left h2 span { color: var(--turquoise); }
 .cfl-details { margin-top: auto; display: flex; flex-direction: column; gap: 0.9rem; }
-.cfl-detail { display: flex; align-items: center; gap: 0.75rem; color: rgba(255,255,255,0.65); font-size: 0.95rem; text-decoration: none; }
-.cfl-detail:hover { color: #30e3ca; }
-.cfl-detail svg { color: #30e3ca; flex-shrink: 0; width: 18px; height: 18px; }
+.cfl-detail { display: flex; align-items: center; gap: 0.75rem; color: var(--chrome-muted); font-size: 0.95rem; text-decoration: none; }
+.cfl-detail:hover { color: var(--turquoise); }
+.cfl-detail svg { color: var(--turquoise); flex-shrink: 0; width: 18px; height: 18px; }
 .contact-form-right {
   background: var(--bg-elev);
   padding: 2.5rem;

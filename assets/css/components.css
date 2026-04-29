@@ -561,8 +561,8 @@ textarea.cf-control { resize: vertical; min-height: 120px; }
 .contact-map-frame iframe { display: block; width: 100%; height: 420px; border: 0; }
 .map-marker {
   position: absolute;
-  top: 48%;
-  left: 50%;
+  top: 44%;
+  left: 53%;
   transform: translate(-50%, -100%);
   display: flex;
   flex-direction: column;
@@ -573,16 +573,16 @@ textarea.cf-control { resize: vertical; min-height: 120px; }
 }
 .map-marker-badge {
   background: #fff;
-  border-radius: 10px;
-  padding: 7px 12px;
+  border-radius: 8px;
+  padding: 5px 9px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
+  gap: 3px;
 }
-.map-marker-badge img { height: 34px; width: auto; }
+.map-marker-badge img { height: 26px; width: auto; }
 .map-marker-badge span {
-  font-size: 0.65rem;
+  font-size: 0.58rem;
   font-weight: 700;
   color: #0c1f2c;
   letter-spacing: 0.03em;
@@ -591,9 +591,9 @@ textarea.cf-control { resize: vertical; min-height: 120px; }
 .map-marker-arrow {
   width: 0;
   height: 0;
-  border-left: 9px solid transparent;
-  border-right: 9px solid transparent;
-  border-top: 11px solid #fff;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 9px solid #fff;
 }
 .contact-map-info { display: flex; flex-direction: column; gap: 1rem; }
 

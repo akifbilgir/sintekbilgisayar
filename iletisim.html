@@ -82,7 +82,11 @@
 
       <!-- Sağ: Form -->
       <div class="contact-form-right">
-        <form id="contact-form" novalidate>
+        <form id="contact-form" novalidate autocomplete="off">
+          <!-- Honeypot: botlar doldurur, insanlar görmez -->
+          <div class="cf-honeypot" aria-hidden="true">
+            <input type="text" name="cf_website" id="cf-website" tabindex="-1" autocomplete="off">
+          </div>
           <div class="cf-row">
             <div class="cf-group">
               <label for="cf-name">Ad, Soyad *</label>
@@ -107,6 +111,11 @@
             <label for="cf-message">Mesajınız</label>
             <textarea class="cf-control" id="cf-message" name="message" placeholder="Konu veya talebinizi kısaca belirtin…"></textarea>
           </div>
+          <!-- CAPTCHA -->
+          <div class="cf-group cf-captcha-wrap">
+            <label for="cf-captcha">Güvenlik doğrulaması: <strong id="cf-captcha-q"></strong> = ?</label>
+            <input class="cf-control" type="number" id="cf-captcha" placeholder="Sonucu girin" min="0" max="99" required>
+          </div>
           <label class="cf-check">
             <input type="checkbox" id="cf-kvkk" required>
             <span>Sintek Bilgisayar'dan ticari elektronik ileti almak istiyorum ve bu amaçla kişisel verilerimin işlenmesine izin veriyorum.</span>
@@ -116,7 +125,7 @@
             <span><a href="kvkk.html" target="_blank">Aydınlatma Metni</a>'ni okudum, onaylıyorum.</span>
           </label>
           <button type="submit" class="btn btn-primary" style="margin-top:0.5rem;">Bize Ulaşın</button>
-          <p id="cf-error" style="color:#e74c3c;font-size:0.85rem;margin-top:0.75rem;display:none;">Lütfen zorunlu alanları doldurun ve onay kutularını işaretleyin.</p>
+          <p id="cf-error" style="color:#e74c3c;font-size:0.85rem;margin-top:0.75rem;display:none;"></p>
         </form>
 
         <div class="cf-success" id="cf-success" hidden>
@@ -233,22 +242,83 @@
 
 <script>
 (function () {
-  var form = document.getElementById('contact-form');
+  var form    = document.getElementById('contact-form');
   var success = document.getElementById('cf-success');
-  var errMsg = document.getElementById('cf-error');
+  var errMsg  = document.getElementById('cf-error');
   if (!form) return;
+
+  var loadedAt = Date.now();
+
+  /* CAPTCHA */
+  var ca = Math.floor(Math.random() * 9) + 1;
+  var cb = Math.floor(Math.random() * 9) + 1;
+  document.getElementById('cf-captcha-q').textContent = ca + ' + ' + cb;
+  var captchaAnswer = ca + cb;
+
+  function showErr(msg) {
+    errMsg.textContent = msg;
+    errMsg.style.display = 'block';
+  }
+
   form.addEventListener('submit', function (e) {
     e.preventDefault();
+    errMsg.style.display = 'none';
+
+    /* 1. Honeypot */
+    if (document.getElementById('cf-website').value) return;
+
+    /* 2. Zamanlama — 3 saniyeden kısa doldurulamaz */
+    if (Date.now() - loadedAt < 3000) {
+      showErr('Lütfen formu eksiksiz doldurunuz.');
+      return;
+    }
+
+    /* 3. Rate limit — 5 dakikada bir gönderim */
+    var lastSent = parseInt(localStorage.getItem('sintek-form-ts') || '0');
+    if (Date.now() - lastSent < 5 * 60 * 1000) {
+      var kalan = Math.ceil((5 * 60 * 1000 - (Date.now() - lastSent)) / 60000);
+      showErr('Çok fazla istek. Lütfen ' + kalan + ' dakika sonra tekrar deneyin.');
+      return;
+    }
+
+    /* 4. Zorunlu alanlar */
     var name  = document.getElementById('cf-name').value.trim();
     var email = document.getElementById('cf-email').value.trim();
     var phone = document.getElementById('cf-phone').value.trim();
     var kvkk  = document.getElementById('cf-kvkk').checked;
     var aydin = document.getElementById('cf-aydinlatma').checked;
     if (!name || !email || !phone || !kvkk || !aydin) {
-      errMsg.style.display = 'block';
+      showErr('Lütfen zorunlu alanları doldurun ve onay kutularını işaretleyin.');
       return;
     }
-    errMsg.style.display = 'none';
+
+    /* 5. E-posta formatı */
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
+      showErr('Geçerli bir e-posta adresi girin.');
+      return;
+    }
+
+    /* 6. Telefon — en az 10 rakam */
+    if (phone.replace(/\D/g, '').length < 10) {
+      showErr('Geçerli bir telefon numarası girin.');
+      return;
+    }
+
+    /* 7. CAPTCHA */
+    var captchaVal = parseInt(document.getElementById('cf-captcha').value);
+    if (isNaN(captchaVal) || captchaVal !== captchaAnswer) {
+      showErr('Güvenlik sorusu yanlış. Lütfen tekrar deneyin.');
+      /* Yeni soru üret */
+      ca = Math.floor(Math.random() * 9) + 1;
+      cb = Math.floor(Math.random() * 9) + 1;
+      document.getElementById('cf-captcha-q').textContent = ca + ' + ' + cb;
+      captchaAnswer = ca + cb;
+      document.getElementById('cf-captcha').value = '';
+      return;
+    }
+
+    /* Gönder */
+    localStorage.setItem('sintek-form-ts', Date.now().toString());
     var subject = encodeURIComponent('Web Sitesi İletişim Formu – ' + name);
     var body = encodeURIComponent(
       'Ad Soyad: ' + name + '\n' +

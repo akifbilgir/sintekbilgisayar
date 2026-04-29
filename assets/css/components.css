@@ -553,11 +553,48 @@ textarea.cf-control { resize: vertical; min-height: 120px; }
   margin-top: 3rem;
 }
 .contact-map-frame {
+  position: relative;
   border-radius: var(--radius);
   overflow: hidden;
-  border: 1px solid var(--border);
+  border: 1px solid var(--turquoise-border);
 }
 .contact-map-frame iframe { display: block; width: 100%; height: 420px; border: 0; }
+.map-marker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pointer-events: none;
+  z-index: 10;
+  filter: drop-shadow(0 3px 10px rgba(0,0,0,0.35));
+}
+.map-marker-badge {
+  background: #fff;
+  border-radius: 10px;
+  padding: 7px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.map-marker-badge img { height: 34px; width: auto; }
+.map-marker-badge span {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #0c1f2c;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+.map-marker-arrow {
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 11px solid #fff;
+}
 .contact-map-info { display: flex; flex-direction: column; gap: 1rem; }
 
 @media (max-width: 860px) {

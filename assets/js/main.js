@@ -140,7 +140,7 @@ if (revealEls.length && 'IntersectionObserver' in window) {
   if (!loader) return;
   var start = Date.now();
   window.addEventListener('load', function () {
-    var wait = Math.max(0, 6000 - (Date.now() - start));
+    var wait = Math.max(0, 3000 - (Date.now() - start));
     setTimeout(function () {
       loader.classList.add('pl-out');
       setTimeout(function () { loader.remove(); }, 500);

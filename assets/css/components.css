@@ -669,9 +669,9 @@ textarea.cf-control { resize: vertical; min-height: 72px; }
 #page-loader.pl-out { opacity: 0; pointer-events: none; }
 .pl-svg { width: 95px; height: 70px; overflow: visible; }
 .pl-t { opacity: 0; }
-.pl-t1 { fill: #fb6054; animation: pl-enter 0.55s cubic-bezier(0.34,1.56,0.64,1) 0.15s both, pl-pulse 1.2s ease-in-out 0.8s infinite, pl-color-1 3s linear 4s infinite; }
-.pl-t2 { fill: #8081ba; animation: pl-enter 0.55s cubic-bezier(0.34,1.56,0.64,1) 0.32s both, pl-pulse 1.2s ease-in-out 0.97s infinite, pl-color-2 3s linear 4s infinite; }
-.pl-t3 { fill: #1495a4; animation: pl-enter 0.55s cubic-bezier(0.34,1.56,0.64,1) 0.49s both, pl-pulse 1.2s ease-in-out 1.14s infinite, pl-color-3 3s linear 4s infinite; }
+.pl-t1 { fill: #fb6054; animation: pl-enter 0.55s cubic-bezier(0.34,1.56,0.64,1) 0.15s both, pl-pulse 1.2s ease-in-out 0.8s infinite, pl-color-1 3s linear 1.2s infinite; }
+.pl-t2 { fill: #8081ba; animation: pl-enter 0.55s cubic-bezier(0.34,1.56,0.64,1) 0.32s both, pl-pulse 1.2s ease-in-out 0.97s infinite, pl-color-2 3s linear 1.2s infinite; }
+.pl-t3 { fill: #1495a4; animation: pl-enter 0.55s cubic-bezier(0.34,1.56,0.64,1) 0.49s both, pl-pulse 1.2s ease-in-out 1.14s infinite, pl-color-3 3s linear 1.2s infinite; }
 @keyframes pl-enter {
   0%   { opacity: 0; transform: translateX(-20px); }
   70%  { opacity: 1; transform: translateX(4px); }

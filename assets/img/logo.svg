@@ -1,9 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 78">
-  <!-- Coral/salmon play triangle (back) -->
-  <polygon points="4,4 38,26 4,48" fill="#F07572"/>
-  <!-- Teal play triangle (front, offset right) -->
-  <polygon points="22,4 56,26 22,48" fill="#2DCEC0"/>
-  <!-- SİNTEK wordmark -->
+  <polygon points="4,4 38,26 4,48" fill="#fb6054"/>
+  <polygon points="22,4 56,26 22,48" fill="#8081ba"/>
+  <polygon points="40,4 74,26 40,48" fill="#1495a4"/>
   <text x="2" y="70" font-family="'Inter','Helvetica Neue',Arial,sans-serif"
         font-weight="700" font-size="19" fill="#3A4558" letter-spacing="4.5">SİNTEK</text>
 </svg>

@@ -1,0 +1,5 @@
+[    1126ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://akifbilgir.github.io/sintekbilgisayar/assets/img/partners/link.svg:0
+[    1362ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://akifbilgir.github.io/sintekbilgisayar/assets/img/partners/mysoft.svg:0
+[    1958ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://akifbilgir.github.io/sintekbilgisayar/assets/img/partners/arkimza.svg:0
+[  276329ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ :15
+[  299384ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ :14

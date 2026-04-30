@@ -119,6 +119,7 @@
   border-top: 1px solid var(--turquoise-border);
   margin-top: 6rem;
   padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .footer-grid {
@@ -147,23 +148,34 @@
 .footer-grid ul li a:hover { color: var(--turquoise); }
 
 .footer-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 998;
+  background: var(--chrome-bg);
+  border-top: 1px solid var(--turquoise-border);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.25rem 0;
+  padding: 0.6rem clamp(1rem, 5vw, 3rem);
   gap: 1rem;
-  flex-wrap: wrap;
+  max-width: none;
+  margin: 0;
+  box-sizing: border-box;
 }
 .footer-bottom p,
 .footer-bottom a { font-size: 0.78rem; color: var(--chrome-muted); }
 .footer-bottom a:hover { color: var(--turquoise); }
+.fb-logo img { height: 28px; width: auto; display: block; opacity: 0.85; transition: opacity 0.2s; }
+.fb-logo:hover img { opacity: 1; }
 
 @media (max-width: 900px) {
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 520px) {
   .footer-grid { grid-template-columns: 1fr; }
-  .footer-bottom { flex-direction: column; text-align: center; }
+  .footer-bottom p:first-child { display: none; }
 }
 
 /* ===== Sections ===== */

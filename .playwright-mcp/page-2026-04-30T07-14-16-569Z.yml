@@ -1,0 +1,330 @@
+- generic [active] [ref=e1]:
+  - img [ref=e3]
+  - banner [ref=e7]:
+    - generic [ref=e8]:
+      - link "Sintek Bilgisayar" [ref=e9] [cursor=pointer]:
+        - /url: index.html
+        - img "Sintek Bilgisayar" [ref=e10]
+      - navigation "Ana navigasyon" [ref=e11]:
+        - link "Anasayfa" [ref=e12] [cursor=pointer]:
+          - /url: index.html
+        - link "Hakkımızda" [ref=e13] [cursor=pointer]:
+          - /url: hakkimizda.html
+        - link "Hizmetler" [ref=e14] [cursor=pointer]:
+          - /url: hizmetler.html
+        - link "Referanslar" [ref=e15] [cursor=pointer]:
+          - /url: referanslar.html
+        - link "Destek/İndirme" [ref=e16] [cursor=pointer]:
+          - /url: destek.html
+        - link "Haberler/Blog" [ref=e17] [cursor=pointer]:
+          - /url: blog/index.html
+      - generic [ref=e18]:
+        - button "Açık" [ref=e19] [cursor=pointer]:
+          - img [ref=e20]
+        - button "Koyu" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+      - link "İletişime Geç" [ref=e26] [cursor=pointer]:
+        - /url: iletisim.html
+  - region "Ana slayder" [ref=e27]:
+    - generic [ref=e28]:
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]: Vizyon & Ortaklık
+          - heading "İşletmenizin Dijital Dönüşümünde Stratejik İş Ortağınız" [level=1] [ref=e33]:
+            - text: İşletmenizin Dijital Dönüşümünde
+            - text: Stratejik İş Ortağınız
+          - paragraph [ref=e34]: 28 yıllık ERP tecrübesi ve mali mevzuat uzmanlığımızla, işletmenizin dijital mimarisini birlikte inşa ediyoruz.
+          - generic [ref=e35]:
+            - link "İletişime Geç" [ref=e36] [cursor=pointer]:
+              - /url: iletisim.html
+            - link "Hakkımızda" [ref=e37] [cursor=pointer]:
+              - /url: hakkimizda.html
+        - generic:
+          - img
+      - generic:
+        - generic:
+          - generic:
+            - generic: Ölçeklenebilir Çözümler
+            - heading "Her Boy İşletmeye Bütünleşik Dijitalleşme Çözümleri" [level=2]:
+              - text: Her Boy İşletmeye
+              - text: Bütünleşik Dijitalleşme Çözümleri
+            - paragraph: Mikro işletmelerden büyük ölçekli yapılara kadar; e-Dönüşüm, ERP ve bordro yönetiminde size özel esnek çözümler.
+            - generic:
+              - link "Hizmetlerimizi Keşfet":
+                - /url: hizmetler.html
+              - link "Ücretsiz Danışmanlık":
+                - /url: iletisim.html
+          - generic:
+            - img:
+              - generic: KOBİ
+              - generic: Orta
+              - generic: Büyük
+              - generic: Kurumsal
+      - generic:
+        - generic:
+          - generic:
+            - generic: Rekabet & Başarı
+            - heading "Dijital Ekonomide Rekabet Gücünüzü Artırıyoruz" [level=2]:
+              - text: Dijital Ekonomide
+              - text: Rekabet Gücünüzü Artırıyoruz
+            - paragraph: Operasyonel verimlilik ve hatasız veri yönetimi ile pazarın dinamiklerine hızla uyum sağlayın, fark yaratın.
+            - generic:
+              - link "Hizmetlerimizi Keşfet":
+                - /url: hizmetler.html
+              - link "e-Dönüşüm":
+                - /url: e-donusum.html
+          - generic:
+            - img
+      - generic:
+        - generic:
+          - generic:
+            - generic: Çok Boyutlu Dönüşüm
+            - heading "Dijitalleşme Çok Boyutlu Bir Değişim Sürecidir" [level=2]
+            - paragraph: Sadece yazılım değil; kültürel ve operasyonel bir dönüşüm için gereken tüm teknik ve akademik desteği sunuyoruz.
+            - generic:
+              - link "Daha Fazla Bilgi":
+                - /url: hakkimizda.html
+              - link "Danışmanlık Al":
+                - /url: iletisim.html
+          - generic:
+            - img:
+              - generic: Teknoloji
+              - generic: İnsan
+              - generic: Süreç
+      - generic:
+        - generic:
+          - generic:
+            - generic: Güçlü Formül
+            - 'heading "Tek Başına Teknoloji Yetmez: Yöntem + Teknoloji + Yetkinlik" [level=2]':
+              - text: "Tek Başına Teknoloji Yetmez:"
+              - text: Yöntem + Teknoloji + Yetkinlik
+            - paragraph: Doğru metodoloji ve 28 yıllık sektörel yetkinliğimizi ileri teknolojiyle birleştirerek kalıcı çözümler üretiyoruz.
+            - generic:
+              - link "İş Ortaklarımız":
+                - /url: is-ortaklari.html
+              - link "Teklif Al":
+                - /url: iletisim.html
+          - generic:
+            - img:
+              - generic: YÖNTEM
+              - generic: TEKNOLOJİ
+              - generic: YETKİNLİK
+      - generic:
+        - generic:
+          - generic:
+            - generic: Dijital Dönüşüm
+            - heading "Dünü Denetle, Bugünü Yönet, Yarını Planla" [level=2]:
+              - text: Dünü Denetle, Bugünü Yönet,
+              - text: Yarını Planla
+            - paragraph: Geçmişin verisiyle denetim, bugünün hızıyla yönetim ve yarının projeksiyonuyla büyüme. Sintek yanınızda.
+            - generic:
+              - link "Hizmetlerimizi Keşfet":
+                - /url: hizmetler.html
+              - link "İletişime Geç":
+                - /url: iletisim.html
+          - generic:
+            - img:
+              - generic: DÜN
+              - generic: Denetle
+              - generic: BUGÜN
+              - generic: Yönet
+              - generic: YARIN
+              - generic: Planla
+    - button "Önceki slayt" [ref=e38] [cursor=pointer]:
+      - img [ref=e39]
+    - button "Sonraki slayt" [ref=e41] [cursor=pointer]:
+      - img [ref=e42]
+    - tablist "Slayt seçimi" [ref=e44]:
+      - tab "Slayt 1" [ref=e45] [cursor=pointer]
+      - tab "Slayt 2" [ref=e46] [cursor=pointer]
+      - tab "Slayt 3" [ref=e47] [cursor=pointer]
+      - tab "Slayt 4" [ref=e48] [cursor=pointer]
+      - tab "Slayt 5" [ref=e49] [cursor=pointer]
+      - tab "Slayt 6" [ref=e50] [cursor=pointer]
+    - generic [ref=e51]: 1 / 6
+  - generic [ref=e53]:
+    - paragraph [ref=e54]: Yetkili İş Ortaklarımız
+    - generic [ref=e55]:
+      - link "LINK ERP Yazılımları" [ref=e56] [cursor=pointer]:
+        - /url: is-ortaklari.html
+        - generic [ref=e58]: LINK
+        - generic [ref=e59]: ERP Yazılımları
+      - link "MYSOFT ERP Yazılımları" [ref=e60] [cursor=pointer]:
+        - /url: is-ortaklari.html
+        - generic [ref=e62]: MYSOFT
+        - generic [ref=e63]: ERP Yazılımları
+      - link "ARKİMZA e-Dönüşüm Çözümleri" [ref=e64] [cursor=pointer]:
+        - /url: is-ortaklari.html
+        - generic [ref=e66]: ARKİMZA
+        - generic [ref=e67]: e-Dönüşüm Çözümleri
+  - generic [ref=e69]:
+    - generic [ref=e70]:
+      - generic [ref=e71]: Neler Sunuyoruz
+      - heading "İşletmenizin İhtiyacı Olan Tüm Hizmetler" [level=2] [ref=e72]
+      - paragraph [ref=e73]: Yazılım seçiminden kuruluma, eğitimden bakıma kadar tüm süreçlerde yanınızdayız.
+    - generic [ref=e74]:
+      - link "ERP Satış Link ve Mysoft ürün ailelerinde ihtiyaç analizi, demo, lisanslama ve kurulum hizmetleri. Detaylı bilgi" [ref=e75] [cursor=pointer]:
+        - /url: hizmetler.html#erp-satis
+        - img [ref=e77]
+        - heading "ERP Satış" [level=3] [ref=e79]
+        - paragraph [ref=e80]: Link ve Mysoft ürün ailelerinde ihtiyaç analizi, demo, lisanslama ve kurulum hizmetleri.
+        - generic [ref=e81]:
+          - text: Detaylı bilgi
+          - img [ref=e82]
+      - link "Kullanıcı Eğitimi Yerinde ve online eğitimlerle yazılımı verimli kullanan ekipler oluşturuyoruz. Detaylı bilgi" [ref=e84] [cursor=pointer]:
+        - /url: hizmetler.html#egitim
+        - img [ref=e86]
+        - heading "Kullanıcı Eğitimi" [level=3] [ref=e88]
+        - paragraph [ref=e89]: Yerinde ve online eğitimlerle yazılımı verimli kullanan ekipler oluşturuyoruz.
+        - generic [ref=e90]:
+          - text: Detaylı bilgi
+          - img [ref=e91]
+      - link "Teknik Destek Uzak bağlantı ve yerinde müdahaleyle kesintisiz üretim için destek ve bakım sözleşmeleri. Detaylı bilgi" [ref=e93] [cursor=pointer]:
+        - /url: hizmetler.html#destek
+        - img [ref=e95]
+        - heading "Teknik Destek" [level=3] [ref=e98]
+        - paragraph [ref=e99]: Uzak bağlantı ve yerinde müdahaleyle kesintisiz üretim için destek ve bakım sözleşmeleri.
+        - generic [ref=e100]:
+          - text: Detaylı bilgi
+          - img [ref=e101]
+      - link "e-Dönüşüm e-Fatura, e-Arşiv, e-İrsaliye, e-Defter, e-SMM — GİB uyumlu Arkimza entegrasyonları. Detaylı bilgi" [ref=e103] [cursor=pointer]:
+        - /url: e-donusum.html
+        - img [ref=e105]
+        - heading "e-Dönüşüm" [level=3] [ref=e107]
+        - paragraph [ref=e108]: e-Fatura, e-Arşiv, e-İrsaliye, e-Defter, e-SMM — GİB uyumlu Arkimza entegrasyonları.
+        - generic [ref=e109]:
+          - text: Detaylı bilgi
+          - img [ref=e110]
+  - generic [ref=e113]:
+    - generic [ref=e114]:
+      - generic [ref=e115]: Neden Biz?
+      - heading "Rakamlarla Deneyimimiz" [level=2] [ref=e116]
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - generic [ref=e119]: 28+
+        - generic [ref=e120]: Yıllık Sektör Deneyimi
+      - generic [ref=e121]:
+        - generic [ref=e122]: 100+
+        - generic [ref=e123]: Memnun Müşteri
+      - generic [ref=e124]:
+        - generic [ref=e125]: "3"
+        - generic [ref=e126]: Yetkili İş Ortağı
+      - generic [ref=e127]:
+        - generic [ref=e128]: 7/24
+        - generic [ref=e129]: Acil Destek Hattı
+  - generic [ref=e131]:
+    - generic [ref=e132]:
+      - generic [ref=e133]: Güncel Bilgi
+      - heading "Son Yazılar ve Duyurular" [level=2] [ref=e134]
+      - paragraph [ref=e135]: GİB mevzuatı, ERP seçimi ve e-Dönüşüm konularında güncel rehberler.
+    - generic [ref=e136]:
+      - link "e-Dönüşüm e-Fatura'ya Geçiş Rehberi 2026 Zorunluluk kapsamı, başvuru adımları ve dikkat edilmesi gerekenler. Nisan 2026 Devamını oku →" [ref=e137] [cursor=pointer]:
+        - /url: blog/e-fatura-gecis-rehberi.html
+        - generic [ref=e138]:
+          - generic [ref=e139]: e-Dönüşüm
+          - heading "e-Fatura'ya Geçiş Rehberi 2026" [level=3] [ref=e140]
+          - paragraph [ref=e141]: Zorunluluk kapsamı, başvuru adımları ve dikkat edilmesi gerekenler.
+          - generic [ref=e142]:
+            - generic [ref=e143]: Nisan 2026
+            - generic [ref=e144]: Devamını oku →
+      - link "ERP KOBİ'ler için ERP Seçim Kriterleri İşletme büyüklüğüne göre doğru yazılımı nasıl seçersiniz? Mart 2026 Devamını oku →" [ref=e145] [cursor=pointer]:
+        - /url: blog/erp-secim-kriterleri.html
+        - generic [ref=e146]:
+          - generic [ref=e147]: ERP
+          - heading "KOBİ'ler için ERP Seçim Kriterleri" [level=3] [ref=e148]
+          - paragraph [ref=e149]: İşletme büyüklüğüne göre doğru yazılımı nasıl seçersiniz?
+          - generic [ref=e150]:
+            - generic [ref=e151]: Mart 2026
+            - generic [ref=e152]: Devamını oku →
+      - link "e-Dönüşüm e-Defter Saklama ve Berat Süreçleri Yasal saklama yükümlülükleri ve berat yükleme sürecinin ayrıntıları. Şubat 2026 Devamını oku →" [ref=e153] [cursor=pointer]:
+        - /url: blog/e-defter-saklama.html
+        - generic [ref=e154]:
+          - generic [ref=e155]: e-Dönüşüm
+          - heading "e-Defter Saklama ve Berat Süreçleri" [level=3] [ref=e156]
+          - paragraph [ref=e157]: Yasal saklama yükümlülükleri ve berat yükleme sürecinin ayrıntıları.
+          - generic [ref=e158]:
+            - generic [ref=e159]: Şubat 2026
+            - generic [ref=e160]: Devamını oku →
+    - link "Tüm Yazıları Gör" [ref=e162] [cursor=pointer]:
+      - /url: blog/index.html
+  - generic [ref=e165]:
+    - generic [ref=e166]:
+      - heading "İşletmenizi Dijitalleştirmeye Hazır mısınız?" [level=2] [ref=e167]
+      - paragraph [ref=e168]: Ücretsiz ihtiyaç analizi için bugün bize ulaşın.
+    - link "Hemen İletişime Geç" [ref=e169] [cursor=pointer]:
+      - /url: iletisim.html
+  - contentinfo [ref=e170]:
+    - generic [ref=e171]:
+      - generic [ref=e172]:
+        - img "Sintek Bilgisayar" [ref=e173]
+        - text: Sintek Bilgisayar
+        - paragraph [ref=e174]: ERP satış, eğitim ve destek ile e-Dönüşüm çözümlerinde güvenilir iş ortağınız.
+      - generic [ref=e175]:
+        - heading "Hizmetler" [level=4] [ref=e176]
+        - list [ref=e177]:
+          - listitem [ref=e178]:
+            - link "ERP Satış" [ref=e179] [cursor=pointer]:
+              - /url: hizmetler.html#erp-satis
+          - listitem [ref=e180]:
+            - link "Kullanıcı Eğitimi" [ref=e181] [cursor=pointer]:
+              - /url: hizmetler.html#egitim
+          - listitem [ref=e182]:
+            - link "Teknik Destek" [ref=e183] [cursor=pointer]:
+              - /url: hizmetler.html#destek
+          - listitem [ref=e184]:
+            - link "e-Dönüşüm" [ref=e185] [cursor=pointer]:
+              - /url: e-donusum.html
+      - generic [ref=e186]:
+        - heading "Kurumsal" [level=4] [ref=e187]
+        - list [ref=e188]:
+          - listitem [ref=e189]:
+            - link "Hakkımızda" [ref=e190] [cursor=pointer]:
+              - /url: hakkimizda.html
+          - listitem [ref=e191]:
+            - link "İş Ortakları" [ref=e192] [cursor=pointer]:
+              - /url: is-ortaklari.html
+          - listitem [ref=e193]:
+            - link "Referanslar" [ref=e194] [cursor=pointer]:
+              - /url: referanslar.html
+          - listitem [ref=e195]:
+            - link "Blog" [ref=e196] [cursor=pointer]:
+              - /url: blog/index.html
+      - generic [ref=e197]:
+        - heading "İletişim" [level=4] [ref=e198]
+        - list [ref=e199]:
+          - listitem [ref=e200]:
+            - link "WhatsApp" [ref=e201] [cursor=pointer]:
+              - /url: https://wa.me/902122242586
+          - listitem [ref=e202]:
+            - link "Telefon" [ref=e203] [cursor=pointer]:
+              - /url: tel:+902122242586
+          - listitem [ref=e204]:
+            - link "E-posta" [ref=e205] [cursor=pointer]:
+              - /url: mailto:info@sintekbilgisayar.com.tr
+          - listitem [ref=e206]:
+            - link "İletişim Sayfası" [ref=e207] [cursor=pointer]:
+              - /url: iletisim.html
+    - generic [ref=e208]:
+      - paragraph [ref=e209]: © 2026 Sintek Bilgisayar — Tüm hakları saklıdır.
+      - paragraph [ref=e210]:
+        - link "KVKK Aydınlatma Metni" [ref=e211] [cursor=pointer]:
+          - /url: kvkk.html
+        - text: ·
+        - link "Çerez Politikası" [ref=e212] [cursor=pointer]:
+          - /url: cerez-politikasi.html
+  - dialog "Çerez Politikası" [ref=e213]:
+    - generic [ref=e214]:
+      - img [ref=e215]
+      - generic [ref=e218]:
+        - strong [ref=e219]: Çerez Kullanımı
+        - paragraph [ref=e220]:
+          - text: Bu site deneyiminizi iyileştirmek için çerez kullanmaktadır.
+          - link "Çerez Politikası" [ref=e221] [cursor=pointer]:
+            - /url: cerez-politikasi.html
+          - text: ve
+          - link "KVKK Aydınlatma Metni" [ref=e222] [cursor=pointer]:
+            - /url: kvkk.html
+          - text: "'ni okuyabilirsiniz."
+    - generic [ref=e223]:
+      - button "Reddet" [ref=e224] [cursor=pointer]
+      - button "Kabul Et" [ref=e225] [cursor=pointer]

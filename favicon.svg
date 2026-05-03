@@ -1,7 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="6" fill="#0b1620"/>
-  <!-- Coral triangle -->
-  <polygon points="4,6 16,16 4,26" fill="#F07572"/>
-  <!-- Teal triangle -->
-  <polygon points="13,6 25,16 13,26" fill="#2DCEC0"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <rect width="80" height="80" rx="14" fill="#0c1f2c"/>
+  <polygon points="5,18 43,40 5,62" fill="#fb6054"/>
+  <polygon points="23,18 61,40 23,62" fill="#8081ba"/>
+  <polygon points="41,18 79,40 41,62" fill="#1495a4"/>
 </svg>
